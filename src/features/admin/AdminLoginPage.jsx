@@ -6,25 +6,29 @@ export default function AdminLoginPage() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
 
   const from = location.state?.from || "/admin";
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     if (!username.trim()) {
       setError("Nama user wajib diisi.");
       return;
     }
 
-    const ok = loginAdmin({ password, username });
-    if (!ok) {
-      setError("Password admin tidak valid.");
-      return;
+    try {
+      setLoading(true);
+      setError("");
+      await loginAdmin({ username, password });
+      navigate(from, { replace: true, state: { loginSuccess: true } });
+    } catch (err) {
+      setError(err.message || "Login gagal.");
+    } finally {
+      setLoading(false);
     }
-
-    navigate(from, { replace: true, state: { loginSuccess: true } });
   };
 
   return (
@@ -58,11 +62,10 @@ export default function AdminLoginPage() {
         />
         {error && <p className="mt-2 text-sm text-red-600">{error}</p>}
 
-        <button type="submit" className="mt-5 w-full rounded-lg bg-navy px-4 py-2 font-semibold text-white">
-          Masuk Admin
+        <button type="submit" disabled={loading} className="mt-5 w-full rounded-lg bg-navy px-4 py-2 font-semibold text-white disabled:opacity-60">
+          {loading ? "Memproses..." : "Masuk Admin"}
         </button>
       </form>
     </section>
   );
 }
-

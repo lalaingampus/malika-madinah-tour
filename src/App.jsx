@@ -7,6 +7,8 @@ import ArticleDetailPage from "./features/articles/ArticleDetailPage";
 import ArticlesPage from "./features/articles/ArticlesPage";
 import ContactPage from "./features/contact/ContactPage";
 import HomePage from "./features/home/HomePage";
+import InfoPage from "./features/info/InfoPage";
+import PackageDetailPage from "./features/packages/PackageDetailPage";
 import PackagesPage from "./features/packages/PackagesPage";
 
 export default function App() {
@@ -15,9 +17,11 @@ export default function App() {
       <Route element={<MainLayout />}>
         <Route path="/" element={<HomePage />} />
         <Route path="/paket" element={<PackagesPage />} />
+        <Route path="/paket/:id" element={<PackageDetailPage />} />
         <Route path="/kontak" element={<ContactPage />} />
         <Route path="/artikel" element={<ArticlesPage />} />
         <Route path="/artikel/:slug" element={<ArticleDetailPage />} />
+        <Route path="/informasi" element={<InfoPage />} />
         <Route path="/admin-login" element={<AdminLoginPage />} />
         <Route
           path="/admin"

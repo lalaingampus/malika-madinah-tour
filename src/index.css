@@ -17,3 +17,110 @@ body,
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.page-enter {
+  animation: pageEnter 0.35s ease-out;
+}
+
+.reveal-init {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+
+.reveal-show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.logo-loader-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 112px;
+  height: 112px;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 20px 45px rgba(12, 36, 86, 0.18);
+  transform: scale(0.92);
+  opacity: 0;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.logo-loader-wrap-show {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.logo-loader-img {
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+  animation: logoPulse 1.2s ease-in-out infinite;
+}
+
+.logo-loader-ring {
+  position: absolute;
+  inset: -8px;
+  border-radius: 9999px;
+  border: 3px solid rgba(194, 148, 44, 0.2);
+  border-top-color: rgba(194, 148, 44, 0.95);
+  animation: logoSpin 0.95s linear infinite;
+}
+
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes logoPulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.96);
+    opacity: 0.92;
+  }
+}
+
+@keyframes logoSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .page-enter,
+  .reveal-init,
+  .reveal-show {
+    animation: none !important;
+    transition: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .logo-loader-ring,
+  .logo-loader-img {
+    animation: none !important;
+  }
+}
