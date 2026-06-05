@@ -17,6 +17,7 @@ export default function MainLayout() {
   const [adminName, setAdminName] = useState("");
   const [showLoginToast, setShowLoginToast] = useState(false);
   const [routeLoading, setRouteLoading] = useState(false);
+  const [waMenuOpen, setWaMenuOpen] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
@@ -64,7 +65,18 @@ export default function MainLayout() {
   }, [location.pathname]);
 
   const waNumber = siteConfig.phone.replace(/\D/g, "");
-  const waLink = `https://wa.me/${waNumber}`;
+  const waContacts = siteConfig.whatsappContacts || [
+    {
+      label: "CS 1",
+      phone: siteConfig.phone,
+      message: "Assalamualaikum, saya ingin konsultasi paket umrah.",
+    },
+  ];
+
+  const buildWaLink = (phone, message) => {
+    const number = String(phone).replace(/\D/g, "");
+    return `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
+  };
 
   return (
     <div className="flex min-h-screen flex-col bg-cream text-slate-800">
@@ -175,17 +187,40 @@ export default function MainLayout() {
         <Outlet />
       </main>
 
-      <a
-        href={waLink}
-        target="_blank"
-        rel="noreferrer"
-        aria-label="Chat WhatsApp Sales"
-        className="fixed bottom-20 right-4 z-40 inline-flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition hover:brightness-95 sm:bottom-6"
-      >
-        <svg viewBox="0 0 24 24" className="h-7 w-7 fill-current" aria-hidden="true">
-          <path d="M12 2a10 10 0 0 0-8.66 15l-1.2 4.4 4.5-1.18A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.08-1.12l-.3-.18-2.67.7.72-2.6-.2-.3A8 8 0 1 1 12 20zm4.38-5.97c-.24-.12-1.4-.7-1.62-.78-.22-.08-.38-.12-.54.12s-.62.78-.76.94c-.14.16-.28.18-.52.06-.24-.12-1-.37-1.9-1.18-.7-.62-1.17-1.38-1.3-1.62-.14-.24-.02-.36.1-.48.1-.1.24-.26.36-.4.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.48-.4-.4-.54-.4h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2 0 1.18.86 2.32.98 2.48.12.16 1.7 2.6 4.12 3.64.58.26 1.04.42 1.4.54.58.18 1.1.16 1.52.1.46-.06 1.4-.58 1.6-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z" />
-        </svg>
-      </a>
+      <div className="fixed bottom-20 right-4 z-40 flex flex-col items-end gap-3 sm:bottom-6">
+        <div
+          className={`w-56 overflow-hidden rounded-2xl border border-white/20 bg-white p-3 shadow-2xl transition-all duration-200 ${
+            waMenuOpen ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-2 opacity-0"
+          }`}
+        >
+          <p className="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-navy">Kontak WhatsApp</p>
+          <div className="space-y-2">
+            {waContacts.slice(0, 2).map((contact) => (
+              <a
+                key={contact.label}
+                href={buildWaLink(contact.phone, contact.message)}
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center justify-between rounded-xl bg-[#f5f8ff] px-3 py-2 text-sm font-semibold text-navy transition hover:bg-[#eaf1ff]"
+                onClick={() => setWaMenuOpen(false)}
+              >
+                <span>{contact.label}</span>
+                <span className="text-xs text-slate-500">{contact.phone}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+        <button
+          type="button"
+          onClick={() => setWaMenuOpen((prev) => !prev)}
+          aria-label="Buka kontak WhatsApp"
+          className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition hover:brightness-95"
+        >
+          <svg viewBox="0 0 24 24" className="h-7 w-7 fill-current" aria-hidden="true">
+            <path d="M12 2a10 10 0 0 0-8.66 15l-1.2 4.4 4.5-1.18A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.08-1.12l-.3-.18-2.67.7.72-2.6-.2-.3A8 8 0 1 1 12 20zm4.38-5.97c-.24-.12-1.4-.7-1.62-.78-.22-.08-.38-.12-.54.12s-.62.78-.76.94c-.14.16-.28.18-.52.06-.24-.12-1-.37-1.9-1.18-.7-.62-1.17-1.38-1.3-1.62-.14-.24-.02-.36.1-.48.1-.1.24-.26.36-.4.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.48-.4-.4-.54-.4h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2 0 1.18.86 2.32.98 2.48.12.16 1.7 2.6 4.12 3.64.58.26 1.04.42 1.4.54.58.18 1.1.16 1.52.1.46-.06 1.4-.58 1.6-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z" />
+          </svg>
+        </button>
+      </div>
 
       <footer className="bg-[#0b214f] px-4 py-8 text-white sm:px-6">
         <div className="flex w-full flex-col gap-2 px-2 text-sm sm:flex-row sm:justify-between xl:px-6">

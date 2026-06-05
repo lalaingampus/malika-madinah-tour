@@ -73,6 +73,15 @@ html {
   animation: logoSpin 0.95s linear infinite;
 }
 
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 @keyframes pageEnter {
   from {
     opacity: 0;
