@@ -4,6 +4,7 @@ export const siteConfig = {
   address: "Jl. Contoh Alamat No. 123, Jakarta",
   phone: "+62 877-1717-1749",
   email: "info@malikaroyalmadinah.co.id",
+  servicedJamaahCount: 1280,
   whatsappContacts: [
     {
       label: "CS 1",

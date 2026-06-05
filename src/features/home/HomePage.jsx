@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+﻿import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import dummyPosterImage from "../../assets/WhatsApp Image 2026-05-09 at 09.29.33.jpeg";
@@ -13,6 +13,7 @@ export default function HomePage() {
   const [infos, setInfos] = useState([]);
   const [activeGalleryIndex, setActiveGalleryIndex] = useState(0);
   const [showPromoModal, setShowPromoModal] = useState(false);
+  const [visitorCount, setVisitorCount] = useState(0);
   const galleryRef = useRef(null);
   const testimonialRef = useRef(null);
 
@@ -39,6 +40,14 @@ export default function HomePage() {
   useEffect(() => {
     const timer = window.setTimeout(() => setShowPromoModal(true), 500);
     return () => window.clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    const storageKey = "mrm_visitor_counter";
+    const current = Number(window.localStorage.getItem(storageKey) || "0");
+    const next = current + 1;
+    window.localStorage.setItem(storageKey, String(next));
+    setVisitorCount(next);
   }, []);
 
   const steps = [
@@ -87,6 +96,10 @@ export default function HomePage() {
         {"★"}
       </span>
     ));
+
+  const averageRating =
+    testimonials.reduce((sum, item) => sum + item.rating, 0) / Math.max(testimonials.length, 1);
+  const ratingValue = averageRating.toFixed(1);
 
   useEffect(() => {
     const node = galleryRef.current;
@@ -193,6 +206,42 @@ export default function HomePage() {
             >
               Lihat Semua Paket
             </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="w-full px-6 py-14 xl:px-12">
+        <div className="rounded-[2rem] bg-gradient-to-r from-navy via-[#16336f] to-[#0f2b5d] p-6 text-white shadow-soft sm:p-8">
+          <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-gold/90">Statistik</p>
+              <h2 className="mt-1 font-heading text-3xl">Perjalanan & Kepercayaan Jamaah</h2>
+              <p className="mt-2 max-w-2xl text-sm text-white/80 sm:text-base">
+                Ringkasan performa layanan kami yang terus bertumbuh dan bisa kamu tampilkan langsung di landing page.
+              </p>
+            </div>
+            <div className="rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-semibold text-white/90">
+              Diperbarui real-time
+            </div>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-3">
+            <article className="rounded-2xl bg-white/10 p-5 backdrop-blur">
+              <p className="text-sm font-semibold text-white/70">Pengunjung website</p>
+              <p className="mt-2 font-heading text-4xl text-gold">{visitorCount.toLocaleString("id-ID")}</p>
+              <p className="mt-1 text-sm text-white/75">Kunjungan browser yang tercatat di perangkat ini.</p>
+            </article>
+            <article className="rounded-2xl bg-white/10 p-5 backdrop-blur">
+              <p className="text-sm font-semibold text-white/70">Jamaah terlayani</p>
+              <p className="mt-2 font-heading text-4xl text-gold">{siteConfig.servicedJamaahCount.toLocaleString("id-ID")}+</p>
+              <p className="mt-1 text-sm text-white/75">Jumlah jamaah yang sudah kami dampingi sampai keberangkatan.</p>
+            </article>
+            <article className="rounded-2xl bg-white/10 p-5 backdrop-blur">
+              <p className="text-sm font-semibold text-white/70">Rata-rata kepuasan</p>
+              <p className="mt-2 font-heading text-4xl text-gold">{ratingValue}/5</p>
+              <div className="mt-2 flex items-center gap-1 text-lg">{renderStars(Math.round(averageRating))}</div>
+              <p className="mt-1 text-sm text-white/75">Diambil dari testimoni jamaah yang ditampilkan.</p>
+            </article>
           </div>
         </div>
       </section>
@@ -464,3 +513,4 @@ export default function HomePage() {
     </div>
   );
 }
+

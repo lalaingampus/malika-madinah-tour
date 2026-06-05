@@ -5,6 +5,11 @@ import img4 from "../../assets/img4.jpeg";
 
 export const umrahPackages = [
   {
+    name: "Paket Ekonomis",
+    price: "Mulai 24 Juta",
+    detail: "Pilihan hemat dengan layanan inti yang tetap nyaman dan terarah.",
+  },
+  {
     name: "Umrah Reguler 12 Hari",
     price: "Mulai Rp 34,9 Juta",
     detail: "Hotel dekat Masjidil Haram & Nabawi, pembimbing ibadah berpengalaman.",
@@ -53,36 +58,28 @@ export const gallerySlides = [
 
 export const testimonials = [
   {
-    name: "Ustadz Ahmad",
-    location: "Jakarta",
+    name: "Pak Isna",
+    location: "Jamaah",
     rating: 5,
     packageName: "Umrah Reguler 12 Hari",
     quote:
       "Pendampingan timnya rapi, komunikatif, dan sangat membantu dari persiapan sampai kepulangan. Jamaah jadi lebih tenang.",
   },
   {
-    name: "Ibu Siti",
-    location: "Bekasi",
+    name: "Ibu Nurwatiningsih",
+    location: "Jamaah",
     rating: 5,
     packageName: "Umrah Plus Turki",
     quote:
       "Proses pendaftaran mudah, hotelnya nyaman, dan itinerary terasa tertata. Cocok untuk keluarga yang ingin ibadah khusyuk.",
   },
   {
-    name: "Bapak Rizal",
-    location: "Tangerang",
+    name: "Bapak Purwoko",
+    location: "Jamaah",
     rating: 4,
     packageName: "Private Family Umrah",
     quote:
       "Pelayanan cepat dan informasinya jelas. Tim responsif ketika kami bertanya soal jadwal dan kebutuhan dokumen.",
-  },
-  {
-    name: "Hj. Maryam",
-    location: "Depok",
-    rating: 5,
-    packageName: "Umrah Reguler 12 Hari",
-    quote:
-      "Muthawifnya sabar dan penyampaiannya mudah dipahami oleh jamaah awam. Sangat membantu untuk ibadah yang tenang.",
   },
 ];
 
