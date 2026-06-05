@@ -1,7 +1,11 @@
 import img1 from "../../assets/img1.jpeg";
 import img2 from "../../assets/img2.jpeg";
 import img3 from "../../assets/img3.jpeg";
-import img4 from "../../assets/img4.jpeg";
+import dokumentasi1 from "../../assets/img4.jpeg";
+import dokumentasi2 from "../../assets/dokumentasi2.jpeg";
+import dokumentasi3 from "../../assets/dokumentasi3.jpeg";
+import dokumentasi4 from "../../assets/dokumentasi3.jpeg";
+
 
 export const umrahPackages = [
   {
@@ -36,22 +40,37 @@ export const features = [
 export const gallerySlides = [
   {
     title: "Rombongan Jamaah di Area Masjid",
-    image: img2,
+    image: dokumentasi1,
     description: "Momen kebersamaan jamaah saat menjalankan rangkaian ibadah bersama tim pendamping.",
   },
   {
     title: "Ziarah dan Perjalanan",
-    image: img3,
+    image: dokumentasi2,
     description: "Dokumentasi perjalanan ziarah dengan suasana tertib dan nyaman.",
   },
   {
     title: "Masjid Nabawi",
-    image: img4,
+    image: dokumentasi3,
     description: "Suasana khusyuk jamaah di sekitar Masjid Nabawi saat program ibadah berlangsung.",
   },
   {
     title: "Makkah Al-Mukarramah",
+    image: dokumentasi4,
+    description: "Kebersamaan jamaah di Tanah Suci menjadi bagian dari dokumentasi perjalanan kami.",
+  },
+  {
+    title: "Makkah Al-Mukarramah",
     image: img1,
+    description: "Kebersamaan jamaah di Tanah Suci menjadi bagian dari dokumentasi perjalanan kami.",
+  },
+  {
+    title: "Makkah Al-Mukarramah",
+    image: img2,
+    description: "Kebersamaan jamaah di Tanah Suci menjadi bagian dari dokumentasi perjalanan kami.",
+  },
+  {
+    title: "Makkah Al-Mukarramah",
+    image: img3,
     description: "Kebersamaan jamaah di Tanah Suci menjadi bagian dari dokumentasi perjalanan kami.",
   },
 ];

@@ -327,12 +327,15 @@ export default function HomePage() {
       </section>
 
       <section className="w-full px-6 py-14 xl:px-12">
-        <div className="mb-7 flex items-end justify-between gap-4">
+        <div className="mb-7 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-gold">Keunggulan</p>
             <h2 className="mt-1 font-heading text-3xl text-navy">Kenapa Memilih Kami</h2>
           </div>
-          <Link to="/kontak" className="text-sm font-semibold text-gold hover:underline">
+          <Link
+            to="/kontak"
+            className="text-sm font-semibold text-gold hover:underline sm:text-right"
+          >
             Hubungi Call Center
           </Link>
         </div>
