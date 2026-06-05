@@ -97,9 +97,7 @@ export default function HomePage() {
       </span>
     ));
 
-  const averageRating =
-    testimonials.reduce((sum, item) => sum + item.rating, 0) / Math.max(testimonials.length, 1);
-  const ratingValue = averageRating.toFixed(1);
+  const satisfactionRating = 4.9;
 
   useEffect(() => {
     const node = galleryRef.current;
@@ -238,9 +236,9 @@ export default function HomePage() {
             </article>
             <article className="rounded-2xl bg-white/10 p-5 backdrop-blur">
               <p className="text-sm font-semibold text-white/70">Rata-rata kepuasan</p>
-              <p className="mt-2 font-heading text-4xl text-gold">{ratingValue}/5</p>
-              <div className="mt-2 flex items-center gap-1 text-lg">{renderStars(Math.round(averageRating))}</div>
-              <p className="mt-1 text-sm text-white/75">Diambil dari testimoni jamaah yang ditampilkan.</p>
+              <p className="mt-2 font-heading text-4xl text-gold">{satisfactionRating.toFixed(1)}/5</p>
+              <div className="mt-2 flex items-center gap-1 text-lg">{renderStars(5)}</div>
+              <p className="mt-1 text-sm text-white/75">Nilai kepuasan yang ditampilkan pada section statistik.</p>
             </article>
           </div>
         </div>

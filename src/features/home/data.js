@@ -1,10 +1,10 @@
 import img1 from "../../assets/img1.jpeg";
 import img2 from "../../assets/img2.jpeg";
 import img3 from "../../assets/img3.jpeg";
-import dokumentasi1 from "../../assets/img4.jpeg";
+import dokumentasi1 from "../../assets/dokumentasi1.jpeg";
 import dokumentasi2 from "../../assets/dokumentasi2.jpeg";
 import dokumentasi3 from "../../assets/dokumentasi3.jpeg";
-import dokumentasi4 from "../../assets/dokumentasi3.jpeg";
+import dokumentasi4 from "../../assets/dokumentasi4.jpeg";
 
 
 export const umrahPackages = [
