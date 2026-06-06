@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import dummyPosterImage from "../../assets/WhatsApp Image 2026-05-09 at 09.29.33.jpeg";
+import extraPosterImage from "../../assets/WhatsApp Image 2026-06-06 at 23.43.35.jpeg";
 import { siteConfig } from "../../config/site";
 import { getPosters } from "../../lib/posters";
 import { packageCards } from "./data";
@@ -24,7 +25,10 @@ export default function PackagesPage() {
   const displayPosters =
     posters.length > 0
       ? posters
-      : [{ id: "dummy-poster-1", name: "Dummy Poster Paket", src: dummyPosterImage }];
+      : [
+          { id: "dummy-poster-1", name: "Dummy Poster Paket", src: dummyPosterImage },
+          { id: "dummy-poster-2", name: "Dummy Poster Paket 2", src: extraPosterImage },
+        ];
 
   const waNumber = siteConfig.phone.replace(/\D/g, "");
 
@@ -60,7 +64,7 @@ export default function PackagesPage() {
 
               <div className="p-4">
                 <h3 className="font-heading text-2xl text-navy">{item.title}</h3>
-                <p className="mt-2 text-xs text-slate-600">{item.date} • {item.duration}</p>
+                <p className="mt-2 text-xs text-slate-600">{item.date} â€¢ {item.duration}</p>
                 <p className="mt-1 text-xs text-slate-600">{item.airline}</p>
 
                 <div className="mt-3 border-t border-navy/10 pt-3 text-sm text-slate-700">

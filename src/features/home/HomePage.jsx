@@ -2,6 +2,7 @@
 import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import dummyPosterImage from "../../assets/WhatsApp Image 2026-05-09 at 09.29.33.jpeg";
+import extraPosterImage from "../../assets/WhatsApp Image 2026-06-06 at 23.43.35.jpeg";
 import bankInfoImage from "../../assets/image_rekening_2.png";
 import { siteConfig } from "../../config/site";
 import { getAdditionalInfos } from "../../lib/additionalInfo";
@@ -20,7 +21,10 @@ export default function HomePage() {
   const displayPosters =
     posters.length > 0
       ? posters
-      : [{ id: "dummy-poster-home-1", name: "Dummy Poster Paket", src: dummyPosterImage }];
+      : [
+          { id: "dummy-poster-home-1", name: "Dummy Poster Paket", src: dummyPosterImage },
+          { id: "dummy-poster-home-2", name: "Dummy Poster Paket 2", src: extraPosterImage },
+        ];
   const promoPoster = displayPosters[0];
 
   useEffect(() => {
@@ -315,9 +319,9 @@ export default function HomePage() {
             Kelola Poster
           </Link>
         </div>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-5 flex snap-x snap-mandatory gap-4 overflow-x-auto pb-2 sm:mt-0 sm:grid sm:grid-cols-2 sm:overflow-visible lg:grid-cols-3">
           {displayPosters.slice(0, 6).map((poster) => (
-            <article key={poster.id}>
+            <article key={poster.id} className="mx-auto w-[86%] flex-none snap-center overflow-hidden rounded-2xl bg-white shadow-soft sm:w-auto">
               <img src={poster.src} alt={poster.name || "Poster promo"} className="h-auto w-full object-contain" />
             </article>
           ))}
