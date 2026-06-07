@@ -2,6 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import dummyPosterImage from "../../assets/WhatsApp Image 2026-05-09 at 09.29.33.jpeg";
 import extraPosterImage from "../../assets/WhatsApp Image 2026-06-06 at 23.43.35.jpeg";
+import extraPosterImage2 from "../../assets/WhatsApp Image 2026-06-07 at 14.19.41.jpeg";
+import extraPosterImage3 from "../../assets/WhatsApp Image 2026-06-07 at 14.19.42.jpeg";
 import { siteConfig } from "../../config/site";
 import { getPosters } from "../../lib/posters";
 import { packageCards } from "./data";
@@ -28,6 +30,8 @@ export default function PackagesPage() {
       : [
           { id: "dummy-poster-1", name: "Dummy Poster Paket", src: dummyPosterImage },
           { id: "dummy-poster-2", name: "Dummy Poster Paket 2", src: extraPosterImage },
+          { id: "dummy-poster-3", name: "Dummy Poster Paket 3", src: extraPosterImage2 },
+          { id: "dummy-poster-4", name: "Dummy Poster Paket 4", src: extraPosterImage3 },
         ];
 
   const waNumber = siteConfig.phone.replace(/\D/g, "");

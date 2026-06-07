@@ -2,7 +2,8 @@
 import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import dummyPosterImage from "../../assets/WhatsApp Image 2026-05-09 at 09.29.33.jpeg";
-import extraPosterImage from "../../assets/WhatsApp Image 2026-06-06 at 23.43.35.jpeg";
+import extraPosterImage2 from "../../assets/WhatsApp Image 2026-06-07 at 14.19.41.jpeg";
+import extraPosterImage3 from "../../assets/WhatsApp Image 2026-06-07 at 14.19.42.jpeg";
 import bankInfoImage from "../../assets/image_rekening_2.png";
 import { siteConfig } from "../../config/site";
 import { getAdditionalInfos } from "../../lib/additionalInfo";
@@ -23,7 +24,8 @@ export default function HomePage() {
       ? posters
       : [
           { id: "dummy-poster-home-1", name: "Dummy Poster Paket", src: dummyPosterImage },
-          { id: "dummy-poster-home-2", name: "Dummy Poster Paket 2", src: extraPosterImage },
+          { id: "dummy-poster-home-3", name: "Dummy Poster Paket 3", src: extraPosterImage2 },
+          { id: "dummy-poster-home-4", name: "Dummy Poster Paket 4", src: extraPosterImage3 },
         ];
   const promoPoster = displayPosters[0];
 
