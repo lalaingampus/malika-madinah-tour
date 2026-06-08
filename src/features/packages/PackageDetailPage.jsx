@@ -28,7 +28,7 @@ export default function PackageDetailPage() {
         <div className="p-6 sm:p-8">
           <h1 className="font-heading text-4xl text-navy">{selected.title}</h1>
           <p className="mt-2 text-sm text-slate-600">
-            {selected.date} • {selected.duration} • {selected.airline}
+            {selected.date} | {selected.duration} | {selected.airline}
           </p>
 
           <p className="mt-5 text-slate-700">{selected.description}</p>
@@ -75,3 +75,4 @@ export default function PackageDetailPage() {
     </div>
   );
 }
+

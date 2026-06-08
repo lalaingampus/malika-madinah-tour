@@ -68,7 +68,7 @@ export default function PackagesPage() {
 
               <div className="p-4">
                 <h3 className="font-heading text-2xl text-navy">{item.title}</h3>
-                <p className="mt-2 text-xs text-slate-600">{item.date} • {item.duration}</p>
+                <p className="mt-2 text-xs text-slate-600">{item.date} | {item.duration}</p>
                 <p className="mt-1 text-xs text-slate-600">{item.airline}</p>
 
                 <div className="mt-3 border-t border-navy/10 pt-3 text-sm text-slate-700">
@@ -136,3 +136,4 @@ export default function PackagesPage() {
     </div>
   );
 }
+
