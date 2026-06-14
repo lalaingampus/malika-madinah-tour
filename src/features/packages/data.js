@@ -1,5 +1,5 @@
 import awalMusimImage from "../../assets/WhatsApp Image 2026-05-09 at 09.29.33.jpeg";
-import plusThaifImage from "../../assets/WhatsApp Image 2026-05-09 at 19.38.50.jpeg";
+import plusThaifImage from "../../assets/WhatsApp Image 2026-06-07 at 14.19.41.jpeg";
 import bintangLimaImage from "../../assets/WhatsApp Image 2026-05-09 at 19.38.51.jpeg";
 
 export const packageCards = [
@@ -75,3 +75,4 @@ export const packageCards = [
 export function findPackageById(id) {
   return packageCards.find((item) => item.id === id);
 }
+
