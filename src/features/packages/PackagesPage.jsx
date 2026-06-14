@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import dummyPosterImage from "../../assets/WhatsApp Image 2026-05-09 at 09.29.33.jpeg";
 import extraPosterImage from "../../assets/WhatsApp Image 2026-06-06 at 23.43.35.jpeg";
@@ -8,10 +8,19 @@ import { siteConfig } from "../../config/site";
 import { getPosters } from "../../lib/posters";
 import { packageCards } from "./data";
 
+const defaultFilters = {
+  departure: "",
+  category: "",
+  airport: "",
+  promo: "",
+};
+
 export default function PackagesPage() {
   const [posters, setPosters] = useState([]);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [filters, setFilters] = useState(defaultFilters);
   const sliderRef = useRef(null);
+  const resultsRef = useRef(null);
 
   useEffect(() => {
     const load = async () => {
@@ -34,7 +43,41 @@ export default function PackagesPage() {
           { id: "dummy-poster-4", name: "Dummy Poster Paket 4", src: extraPosterImage3 },
         ];
 
+  const filterOptions = useMemo(
+    () => ({
+      departures: [...new Set(packageCards.map((item) => item.departure))],
+      categories: [...new Set(packageCards.map((item) => item.category))],
+      airports: [...new Set(packageCards.map((item) => item.airport))],
+    }),
+    []
+  );
+
+  const filteredPackages = useMemo(
+    () =>
+      packageCards.filter((item) => {
+        if (filters.departure && item.departure !== filters.departure) return false;
+        if (filters.category && item.category !== filters.category) return false;
+        if (filters.airport && item.airport !== filters.airport) return false;
+        if (filters.promo === "promo" && !item.promo) return false;
+        if (filters.promo === "regular" && item.promo) return false;
+        return true;
+      }),
+    [filters]
+  );
+
   const waNumber = siteConfig.phone.replace(/\D/g, "");
+
+  const handleFilterChange = (key, value) => {
+    setFilters((prev) => ({ ...prev, [key]: value }));
+  };
+
+  const handleSearch = () => {
+    resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  const resetFilters = () => {
+    setFilters(defaultFilters);
+  };
 
   const scrollToIndex = (index) => {
     const slider = sliderRef.current;
@@ -48,57 +91,157 @@ export default function PackagesPage() {
 
   return (
     <div className="w-full px-6 py-14 xl:px-12">
-      <section>
-        <div className="mb-7 text-center">
-          <h2 className="font-heading text-4xl text-navy">Paket Umrah Pilihan</h2>
-          <p className="mx-auto mt-3 max-w-3xl text-sm text-slate-600 sm:text-base">
-            Pilih paket yang sesuai kebutuhan dan budget Anda. Semua paket sudah termasuk pembimbingan lengkap dari tim berpengalaman.
+      <section className="rounded-[2rem] border border-navy/10 bg-white px-5 py-6 shadow-soft sm:px-7 sm:py-8">
+        <div className="mb-6">
+          <h1 className="font-heading text-3xl text-navy sm:text-4xl">Transaksi Paket Umrah</h1>
+          <p className="mt-3 max-w-3xl text-sm text-slate-600 sm:text-base">
+            Pilih jadwal keberangkatan dan jenis paket yang paling sesuai. Versi ini masih frontend-only, jadi filter bekerja dari data paket yang sudah tersedia di halaman.
           </p>
         </div>
 
+        <div className="grid gap-3 rounded-2xl border border-slate-200 bg-[#f8fafc] p-4 md:grid-cols-[1fr_1fr_1fr_1fr_auto] md:items-end">
+          <label className="text-sm font-semibold text-slate-600">
+            <span className="mb-2 block">Keberangkatan</span>
+            <select
+              value={filters.departure}
+              onChange={(event) => handleFilterChange("departure", event.target.value)}
+              className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-700 outline-none transition focus:border-navy/40"
+            >
+              <option value="">Semua Data</option>
+              {filterOptions.departures.map((item) => (
+                <option key={item} value={item}>
+                  {item}
+                </option>
+              ))}
+            </select>
+          </label>
+
+          <label className="text-sm font-semibold text-slate-600">
+            <span className="mb-2 block">Jenis Paket</span>
+            <select
+              value={filters.category}
+              onChange={(event) => handleFilterChange("category", event.target.value)}
+              className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-700 outline-none transition focus:border-navy/40"
+            >
+              <option value="">Semua Data</option>
+              {filterOptions.categories.map((item) => (
+                <option key={item} value={item}>
+                  {item}
+                </option>
+              ))}
+            </select>
+          </label>
+
+          <label className="text-sm font-semibold text-slate-600">
+            <span className="mb-2 block">Bandara</span>
+            <select
+              value={filters.airport}
+              onChange={(event) => handleFilterChange("airport", event.target.value)}
+              className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-700 outline-none transition focus:border-navy/40"
+            >
+              <option value="">Semua Data</option>
+              {filterOptions.airports.map((item) => (
+                <option key={item} value={item}>
+                  {item}
+                </option>
+              ))}
+            </select>
+          </label>
+
+          <label className="text-sm font-semibold text-slate-600">
+            <span className="mb-2 block">Promo</span>
+            <select
+              value={filters.promo}
+              onChange={(event) => handleFilterChange("promo", event.target.value)}
+              className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-700 outline-none transition focus:border-navy/40"
+            >
+              <option value="">Semua Data</option>
+              <option value="promo">Promo</option>
+              <option value="regular">Non Promo</option>
+            </select>
+          </label>
+
+          <div className="flex gap-2 md:justify-end">
+            <button
+              type="button"
+              onClick={handleSearch}
+              className="inline-flex h-[46px] items-center justify-center rounded-lg bg-[#0e74d8] px-4 text-sm font-bold text-white transition hover:brightness-95"
+            >
+              Cari
+            </button>
+            <button
+              type="button"
+              onClick={resetFilters}
+              className="inline-flex h-[46px] items-center justify-center rounded-lg border border-slate-200 bg-white px-4 text-sm font-bold text-slate-700 transition hover:bg-slate-50"
+            >
+              Reset
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section ref={resultsRef} className="mt-8">
+        <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <h2 className="font-heading text-3xl text-navy">Pilihan Paket</h2>
+            <p className="mt-2 text-sm text-slate-600">
+              Menampilkan <span className="font-bold text-navy">{filteredPackages.length}</span> paket dari data frontend saat ini.
+            </p>
+          </div>
+        </div>
+
         <div className="grid gap-5 lg:grid-cols-3">
-          {packageCards.map((item) => (
-            <article key={item.id} className="overflow-hidden rounded-2xl border border-navy/10 bg-white shadow-soft">
-              <div className="relative">
-                <img src={item.image} alt={item.title} className="h-44 w-full object-cover" />
+          {filteredPackages.map((item) => (
+            <article key={item.id} className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-soft">
+              <div className="relative border-b border-slate-100 bg-[#fbfcff] p-3">
+                <img src={item.image} alt={item.title} className="h-56 w-full rounded-xl object-cover" />
                 {item.badge && (
-                  <span className="absolute right-3 top-3 rounded-full bg-[#35d6c7] px-3 py-1 text-xs font-bold text-navy">{item.badge}</span>
+                  <span className="absolute right-5 top-5 rounded-full bg-[#ef4444] px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-white">
+                    {item.badge}
+                  </span>
                 )}
               </div>
 
               <div className="p-4">
                 <h3 className="font-heading text-2xl text-navy">{item.title}</h3>
-                <p className="mt-2 text-xs text-slate-600">{item.date} | {item.duration}</p>
-                <p className="mt-1 text-xs text-slate-600">{item.airline}</p>
-
-                <div className="mt-3 border-t border-navy/10 pt-3 text-sm text-slate-700">
-                  <p className="text-[11px] text-slate-500">Hotel Makkah</p>
-                  <p>{item.hotelMakkah}</p>
-                  <p className="mt-2 text-[11px] text-slate-500">Hotel Madinah</p>
-                  <p>{item.hotelMadinah}</p>
+                <div className="mt-3 space-y-1.5 text-sm text-slate-600">
+                  <p>{item.date}</p>
+                  <p>{item.hotelMakkah} (Makkah)</p>
+                  <p>{item.hotelMadinah} (Madinah)</p>
+                  <p>{item.airline}</p>
+                  <p>{item.airport}</p>
                 </div>
 
-                <div className="mt-3 flex flex-wrap gap-2 border-t border-navy/10 pt-3">
-                  {item.tags.map((tag) => (
-                    <span key={tag} className="rounded-md bg-cream px-2.5 py-1 text-[11px] font-semibold text-navy">
-                      {tag}
-                    </span>
-                  ))}
+                <div className="mt-4 border-t border-slate-200 pt-3">
+                  <div className="grid grid-cols-2 gap-3 text-sm text-slate-600">
+                    <div>
+                      <p className="text-[11px] uppercase tracking-wide text-slate-400">Sisa Seat</p>
+                      <p className="font-semibold text-navy">{item.seats} seat</p>
+                    </div>
+                    <div>
+                      <p className="text-[11px] uppercase tracking-wide text-slate-400">Promo</p>
+                      <p className="font-semibold text-navy">{item.promo ? "Ya" : "Tidak"}</p>
+                    </div>
+                  </div>
                 </div>
 
-                <p className="mt-4 text-xs text-slate-500">Mulai dari</p>
-                <p className="font-heading text-3xl text-navy">{item.price}</p>
-                <p className="text-xs text-slate-500">per orang</p>
+                <div className="mt-4 border-t border-slate-200 pt-3">
+                  <p className="text-xs text-slate-500">Harga mulai</p>
+                  <p className="mt-1 font-heading text-3xl text-[#d84d1c]">{item.price}</p>
+                </div>
 
                 <div className="mt-4 grid grid-cols-2 gap-2">
-                  <Link to={`/paket/${item.id}`} className="rounded-lg bg-[#35d6c7] px-3 py-2 text-center text-sm font-bold text-navy">
-                    Lihat Detail
+                  <Link
+                    to={`/paket/${item.id}`}
+                    className="rounded-md bg-[#1380e2] px-3 py-2 text-center text-sm font-bold text-white transition hover:brightness-95"
+                  >
+                    Detail Paket
                   </Link>
                   <a
                     href={`https://wa.me/${waNumber}?text=${encodeURIComponent(`Assalamualaikum, saya ingin booking ${item.title}. Mohon info detailnya.`)}`}
                     target="_blank"
                     rel="noreferrer"
-                    className="rounded-lg bg-[#fff6d7] px-3 py-2 text-center text-sm font-bold text-navy"
+                    className="rounded-md bg-[#fff2c9] px-3 py-2 text-center text-sm font-bold text-navy transition hover:bg-[#ffe9a3]"
                   >
                     Booking
                   </a>
@@ -107,6 +250,12 @@ export default function PackagesPage() {
             </article>
           ))}
         </div>
+
+        {filteredPackages.length === 0 && (
+          <div className="rounded-2xl border border-dashed border-slate-300 bg-white px-6 py-12 text-center text-slate-500 shadow-soft">
+            Tidak ada paket yang cocok dengan filter saat ini.
+          </div>
+        )}
       </section>
 
       <section className="mt-12">
@@ -136,4 +285,3 @@ export default function PackagesPage() {
     </div>
   );
 }
-

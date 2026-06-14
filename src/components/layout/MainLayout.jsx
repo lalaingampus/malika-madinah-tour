@@ -7,6 +7,7 @@ import { getAdminUserName, isAdminAuthenticated } from "../../lib/adminAuth";
 const navItems = [
   { to: "/", label: "Home" },
   { to: "/paket", label: "Paket" },
+  { to: "/smart-planner", label: "Planner" },
   { to: "/kontak", label: "Kontak" },
   { to: "/artikel", label: "Artikel" },
   { to: "/informasi", label: "Informasi" },
@@ -64,7 +65,6 @@ export default function MainLayout() {
     return () => observer.disconnect();
   }, [location.pathname]);
 
-  const waNumber = siteConfig.phone.replace(/\D/g, "");
   const waContacts = siteConfig.whatsappContacts || [
     {
       label: "CS 1",
@@ -222,11 +222,8 @@ export default function MainLayout() {
         </button>
       </div>
 
-      <footer className="bg-[#0b214f] px-4 py-8 text-white sm:px-6">
-        <div className="flex w-full flex-col gap-2 px-2 text-sm sm:flex-row sm:justify-between xl:px-6">
-          <p>{siteConfig.companyName}</p>
-          <p>{siteConfig.email} | {siteConfig.phone}</p>
-        </div>
+      <footer className="border-t border-navy/10 bg-white px-6 py-4 text-center text-sm text-slate-500 xl:px-12">
+        Copyright 2026 - {siteConfig.companyName}
       </footer>
     </div>
   );

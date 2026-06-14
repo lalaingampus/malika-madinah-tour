@@ -94,7 +94,7 @@ export const testimonials = [
   {
     name: "Bapak Purwoko",
     location: "Jamaah",
-    rating: 4,
+    rating: 5,
     packageName: "Paket Umroh Bintang 5",
     quote:
       "Pelayanan cepat dan informasinya jelas. Tim responsif ketika kami bertanya soal jadwal dan kebutuhan dokumen.",

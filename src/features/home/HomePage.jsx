@@ -1,9 +1,11 @@
-﻿import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import dummyPosterImage from "../../assets/WhatsApp Image 2026-05-09 at 09.29.33.jpeg";
+import septemberPosterImage from "../../assets/WhatsApp Image 2026-06-06 at 23.43.35.jpeg";
 import extraPosterImage2 from "../../assets/WhatsApp Image 2026-06-07 at 14.19.41.jpeg";
 import extraPosterImage3 from "../../assets/WhatsApp Image 2026-06-07 at 14.19.42.jpeg";
+import extraPosterImage4 from "../../assets/WhatsApp Image 2026-06-10 at 17.50.14.jpeg";
 import bankInfoImage from "../../assets/image_rekening_2.png";
 import { siteConfig } from "../../config/site";
 import { getAdditionalInfos } from "../../lib/additionalInfo";
@@ -26,8 +28,9 @@ export default function HomePage() {
           { id: "dummy-poster-home-1", name: "Dummy Poster Paket", src: dummyPosterImage },
           { id: "dummy-poster-home-3", name: "Dummy Poster Paket 3", src: extraPosterImage2 },
           { id: "dummy-poster-home-4", name: "Dummy Poster Paket 4", src: extraPosterImage3 },
+          { id: "dummy-poster-home-5", name: "Dummy Poster Paket 5", src: extraPosterImage4 },
         ];
-  const promoPoster = displayPosters[0];
+  const promoPoster = { id: "promo-september", name: "Poster September", src: septemberPosterImage };
 
   useEffect(() => {
     const load = async () => {
@@ -99,11 +102,17 @@ export default function HomePage() {
   const renderStars = (rating) =>
     Array.from({ length: 5 }).map((_, index) => (
       <span key={index} className={index < rating ? "text-gold" : "text-slate-300"}>
-        {"★"}
+        {"?"}
       </span>
     ));
 
   const satisfactionRating = 4.9;
+  const totalVisitorsDisplay = String(Math.max(visitorCount, 1)).padStart(8, "0");
+  const thisMonthVisitors = Math.max(visitorCount + 489, 500);
+  const thisWeekVisitors = Math.max(Math.round(thisMonthVisitors * 0.58), 292);
+  const todayVisitors = Math.max(visitorCount, 14);
+  const yesterdayVisitors = Math.max(todayVisitors + 43, 57);
+  const avgDailyVisitors = 11;
 
   useEffect(() => {
     const node = galleryRef.current;
@@ -173,8 +182,8 @@ export default function HomePage() {
                 x
               </button>
               <img
-                src={promoPoster?.src}
-                alt={promoPoster?.name || "Poster promo"}
+                src={promoPoster.src}
+                alt={promoPoster.name}
                 className="block max-h-[70vh] w-auto max-w-[92vw] rounded-2xl object-contain shadow-none sm:max-h-[580px] md:max-h-[620px] lg:max-h-[660px]"
               />
             </div>
@@ -210,42 +219,26 @@ export default function HomePage() {
             >
               Lihat Semua Paket
             </Link>
+            <Link
+              to="/smart-planner"
+              className="rounded-full border border-gold/40 bg-gold px-6 py-3 text-sm font-bold text-white transition hover:brightness-95"
+            >
+              Coba Smart Planner
+            </Link>
           </div>
-        </div>
-      </section>
-
-      <section className="w-full px-6 py-14 xl:px-12">
-        <div className="rounded-[2rem] bg-gradient-to-r from-navy via-[#16336f] to-[#0f2b5d] p-6 text-white shadow-soft sm:p-8">
-          <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
-            <div>
-              <p className="text-xs font-bold uppercase tracking-[0.2em] text-gold/90">Statistik</p>
-              <h2 className="mt-1 font-heading text-3xl">Perjalanan & Kepercayaan Jamaah</h2>
-              <p className="mt-2 max-w-2xl text-sm text-white/80 sm:text-base">
-                Ringkasan performa layanan kami yang terus bertumbuh dan bisa kamu tampilkan langsung di landing page.
-              </p>
+          <div className="mt-8 max-w-3xl rounded-3xl border border-navy/10 bg-white/80 p-4 shadow-soft backdrop-blur sm:p-5">
+            <p className="text-xs font-bold uppercase tracking-[0.2em] text-gold">Fitur Baru</p>
+            <div className="mt-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <h2 className="font-heading text-2xl text-navy">Smart Trip Planner</h2>
+                <p className="mt-1 text-sm text-slate-600">
+                  Isi tujuan, budget, tanggal, dan jumlah peserta. Sistem akan bantu pilihkan paket yang paling mendekati kebutuhan Anda.
+                </p>
+              </div>
+              <Link to="/smart-planner" className="rounded-full bg-navy px-5 py-3 text-center text-sm font-bold text-white transition hover:opacity-90">
+                Buka Planner
+              </Link>
             </div>
-            <div className="rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-semibold text-white/90">
-              Diperbarui real-time
-            </div>
-          </div>
-
-          <div className="grid gap-4 md:grid-cols-3">
-            <article className="rounded-2xl bg-white/10 p-5 backdrop-blur">
-              <p className="text-sm font-semibold text-white/70">Pengunjung website</p>
-              <p className="mt-2 font-heading text-4xl text-gold">{visitorCount.toLocaleString("id-ID")}</p>
-              <p className="mt-1 text-sm text-white/75">Kunjungan browser yang tercatat di perangkat ini.</p>
-            </article>
-            <article className="rounded-2xl bg-white/10 p-5 backdrop-blur">
-              <p className="text-sm font-semibold text-white/70">Jamaah terlayani</p>
-              <p className="mt-2 font-heading text-4xl text-gold">{siteConfig.servicedJamaahCount.toLocaleString("id-ID")}+</p>
-              <p className="mt-1 text-sm text-white/75">Jumlah jamaah yang sudah kami dampingi sampai keberangkatan.</p>
-            </article>
-            <article className="rounded-2xl bg-white/10 p-5 backdrop-blur">
-              <p className="text-sm font-semibold text-white/70">Rata-rata kepuasan</p>
-              <p className="mt-2 font-heading text-4xl text-gold">{satisfactionRating.toFixed(1)}/5</p>
-              <div className="mt-2 flex items-center gap-1 text-lg">{renderStars(5)}</div>
-              <p className="mt-1 text-sm text-white/75">Nilai kepuasan yang ditampilkan pada section statistik.</p>
-            </article>
           </div>
         </div>
       </section>
@@ -287,11 +280,7 @@ export default function HomePage() {
               className="w-[92vw] shrink-0 snap-center overflow-hidden rounded-3xl border border-navy/10 bg-white shadow-soft sm:w-[620px] lg:w-[760px]"
             >
               <div className="overflow-hidden bg-[#f7f3eb]">
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="block h-[220px] w-full object-cover sm:h-[340px] lg:h-[400px]"
-                />
+                <img src={item.image} alt={item.title} className="block h-[220px] w-full object-cover sm:h-[340px] lg:h-[400px]" />
               </div>
             </article>
           ))}
@@ -336,10 +325,7 @@ export default function HomePage() {
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-gold">Keunggulan</p>
             <h2 className="mt-1 font-heading text-3xl text-navy">Kenapa Memilih Kami</h2>
           </div>
-          <Link
-            to="/kontak"
-            className="text-sm font-semibold text-gold hover:underline sm:text-right"
-          >
+          <Link to="/kontak" className="text-sm font-semibold text-gold hover:underline sm:text-right">
             Hubungi Call Center
           </Link>
         </div>
@@ -393,7 +379,7 @@ export default function HomePage() {
 
       <section className="relative overflow-hidden bg-navy px-6 py-14 text-white xl:px-12">
         <div className="absolute -left-28 top-0 h-56 w-56 rounded-full bg-white/10 blur-2xl" />
-        <div className="absolute right-0 bottom-0 h-48 w-48 rounded-full bg-gold/20 blur-2xl" />
+        <div className="absolute bottom-0 right-0 h-48 w-48 rounded-full bg-gold/20 blur-2xl" />
         <div className="w-full">
           <p className="text-xs font-bold uppercase tracking-[0.2em] text-gold">Proses</p>
           <h2 className="font-heading text-3xl">Alur Umrah Bersama Kami</h2>
@@ -506,7 +492,7 @@ export default function HomePage() {
         </p>
       </section>
 
-      <section className="px-6 pb-14 xl:px-12">
+      <section className="px-6 py-14 xl:px-12">
         <div className="flex w-full flex-col items-start justify-between gap-5 rounded-3xl bg-gradient-to-r from-navy to-[#1f3e80] p-7 text-white sm:flex-row sm:items-center">
           <div>
             <p className="text-sm text-white/80">Call Center</p>
@@ -515,6 +501,81 @@ export default function HomePage() {
           <Link to="/kontak" className="rounded-full bg-gold px-6 py-3 text-sm font-bold text-white">
             Booking & Konsultasi
           </Link>
+        </div>
+      </section>
+
+      <section className="bg-gradient-to-r from-[#0f4db8] to-[#0b79f2] px-6 py-14 text-white xl:px-12">
+        <div className="grid gap-8 lg:grid-cols-4">
+          <div>
+            <h3 className="font-heading text-2xl">Alamat Kami</h3>
+            <div className="mt-4 space-y-2 text-sm leading-8 text-white/85">{Array.isArray(siteConfig.address) ? siteConfig.address.map((line) => <p key={line}>{line}</p>) : <p>{siteConfig.address}</p>}</div>
+            <p className="mt-4 text-sm leading-8 text-white/85">Email: {siteConfig.email}</p>
+            <p className="text-sm leading-8 text-white/85">Telepon: {siteConfig.phone}</p>
+          </div>
+
+          <div>
+            <h3 className="font-heading text-2xl">Informasi</h3>
+            <div className="mt-4 flex flex-col gap-3 text-sm text-white/90">
+              <Link to="/informasi" className="hover:text-white">Metode Pembayaran</Link>
+              <Link to="/informasi" className="hover:text-white">Syarat Ketentuan</Link>
+              <Link to="/informasi" className="hover:text-white">Kebijakan Privasi</Link>
+              <Link to="/artikel" className="hover:text-white">Artikel</Link>
+              <Link to="/admin-login" className="hover:text-white">Login</Link>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="font-heading text-2xl">Layanan</h3>
+            <div className="mt-4 flex flex-col gap-3 text-sm text-white/90">
+              <Link to="/paket" className="hover:text-white">Layanan Paket Umroh</Link>
+              <Link to="/kontak" className="hover:text-white">Konsultasi & Booking</Link>
+              <Link to="/informasi" className="hover:text-white">Layanan Pembayaran</Link>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="font-heading text-2xl">Jam Operasional</h3>
+            <div className="mt-4 space-y-3 text-sm text-white/90">
+              <p>Senin - Jumat, 09.00 - 17.00</p>
+              <p>Sabtu, 08.30 - 14.00</p>
+              <p>Minggu, libur</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-10 grid gap-8 border-t border-white/20 pt-8 lg:grid-cols-[1.2fr_1fr]">
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-white/80">Total Pengunjung</p>
+            <div className="mt-3 flex flex-wrap gap-1">
+              {totalVisitorsDisplay.split("").map((digit, index) => (
+                <span
+                  key={`${digit}-${index}`}
+                  className="inline-flex h-9 w-8 items-center justify-center rounded-sm border border-white/30 bg-[#081f4f] text-sm font-bold tracking-wide"
+                >
+                  {digit}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <div className="rounded-2xl border border-white/20 bg-white/10 p-4 backdrop-blur-sm">
+            <div className="grid grid-cols-[1fr_auto] gap-y-3 text-sm text-white/90">
+              <span>Bulan Ini</span>
+              <span>{thisMonthVisitors.toLocaleString("id-ID")}</span>
+              <span>Minggu Ini</span>
+              <span>{thisWeekVisitors.toLocaleString("id-ID")}</span>
+              <span>Hari Ini</span>
+              <span>{todayVisitors.toLocaleString("id-ID")}</span>
+              <span>Kemarin</span>
+              <span>{yesterdayVisitors.toLocaleString("id-ID")}</span>
+              <span>Rata-Rata/Hari</span>
+              <span>{avgDailyVisitors.toLocaleString("id-ID")}</span>
+              <span>Jamaah Terlayani</span>
+              <span>{siteConfig.servicedJamaahCount.toLocaleString("id-ID")}+</span>
+              <span>Kepuasan</span>
+              <span>{satisfactionRating.toFixed(1)}/5</span>
+            </div>
+          </div>
         </div>
       </section>
     </div>
