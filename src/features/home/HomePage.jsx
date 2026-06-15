@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+﻿import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import dummyPosterImage from "../../assets/WhatsApp Image 2026-05-09 at 09.29.33.jpeg";
@@ -6,6 +6,8 @@ import septemberPosterImage from "../../assets/WhatsApp Image 2026-06-06 at 23.4
 import extraPosterImage2 from "../../assets/WhatsApp Image 2026-06-07 at 14.19.41.jpeg";
 import extraPosterImage3 from "../../assets/WhatsApp Image 2026-06-07 at 14.19.42.jpeg";
 import extraPosterImage4 from "../../assets/WhatsApp Image 2026-06-10 at 17.50.14.jpeg";
+import extraPosterImage5 from "../../assets/WhatsApp Image 2026-06-15 at 10.38.50.jpeg";
+import extraPosterImage6 from "../../assets/WhatsApp Image 2026-06-15 at 10.57.25.jpeg";
 import bankInfoImage from "../../assets/image_rekening_2.png";
 import { siteConfig } from "../../config/site";
 import { getAdditionalInfos } from "../../lib/additionalInfo";
@@ -29,6 +31,8 @@ export default function HomePage() {
           { id: "dummy-poster-home-3", name: "Dummy Poster Paket 3", src: extraPosterImage2 },
           { id: "dummy-poster-home-4", name: "Dummy Poster Paket 4", src: extraPosterImage3 },
           { id: "dummy-poster-home-5", name: "Dummy Poster Paket 5", src: extraPosterImage4 },
+          { id: "dummy-poster-home-6", name: "Dummy Poster Paket 6", src: extraPosterImage5 },
+          { id: "dummy-poster-home-7", name: "Dummy Poster Paket 7", src: extraPosterImage6 },
         ];
   const promoPoster = { id: "promo-september", name: "Poster September", src: septemberPosterImage };
 
