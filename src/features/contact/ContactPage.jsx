@@ -41,13 +41,15 @@ export default function ContactPage() {
           {Array.isArray(siteConfig.address) ? (
             siteConfig.address.map((addressLine, index) => (
               <div key={addressLine} className="rounded-2xl border border-navy/10 bg-white/70 p-4 shadow-sm">
-                <p className="text-xs font-bold uppercase tracking-[0.18em] text-gold">Alamat {index + 1}</p>
+                <p className="text-xs font-bold uppercase tracking-[0.18em] text-gold">
+                  {index === 0 ? "Kantor Pusat" : "Kantor Perwakilan"}
+                </p>
                 <p className="mt-2 leading-7">{addressLine}</p>
               </div>
             ))
           ) : (
             <div className="rounded-2xl border border-navy/10 bg-white/70 p-4 shadow-sm">
-              <p className="text-xs font-bold uppercase tracking-[0.18em] text-gold">Alamat</p>
+              <p className="text-xs font-bold uppercase tracking-[0.18em] text-gold">Kantor</p>
               <p className="mt-2 leading-7">{siteConfig.address}</p>
             </div>
           )}
