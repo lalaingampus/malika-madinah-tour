@@ -20,6 +20,7 @@ export const packageCards = [
     price: "Rp 25.000.000",
     image: plusThaifImage,
     badge: "Promo",
+    sold: false,
     description:
       "Program umroh plus Thaif dengan city tour, hotel strategis, dan pilihan maskapai premium untuk perjalanan ibadah yang nyaman.",
     includes: [
@@ -43,11 +44,12 @@ export const packageCards = [
     hotelMakkah: "Waha Ajyad",
     hotelMadinah: "Mukhtar Al Gharbi",
     promo: true,
-    seats: 8,
+    seats: 0,
     tags: ["Visa", "Manasik", "Airport Handling", "Air Zam-Zam 5L"],
     price: "Rp 26.000.000",
     image: awalMusimImage,
     badge: "Promo",
+    sold: true,
     description:
       "Paket umroh awal musim dengan suasana lebih nyaman, pembimbing berpengalaman, dan fasilitas lengkap sesuai brosur.",
     includes: [
@@ -75,6 +77,7 @@ export const packageCards = [
     tags: ["Plus Thaif", "Visa", "Makan 3x", "Sekamar Ber 4"],
     price: "Rp 28.500.000",
     image: sekamarBer4Image,
+    sold: false,
     description:
       "Paket umroh plus Thaif dengan skema sekamar berempat, maskapai Saudia, dan fasilitas lengkap sesuai brosur November 2026.",
     includes: [

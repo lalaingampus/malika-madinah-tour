@@ -8,6 +8,8 @@ import extraPosterImage3 from "../../assets/WhatsApp Image 2026-06-07 at 14.19.4
 import extraPosterImage4 from "../../assets/WhatsApp Image 2026-06-10 at 17.50.14.jpeg";
 import extraPosterImage5 from "../../assets/WhatsApp Image 2026-06-15 at 10.38.50.jpeg";
 import extraPosterImage6 from "../../assets/WhatsApp Image 2026-06-15 at 10.57.25.jpeg";
+import extraPosterImage7 from "../../assets/WhatsApp Image 2026-06-15 at 22.07.09.jpeg";
+ 
 import bankInfoImage from "../../assets/image_rekening_2.png";
 import { siteConfig } from "../../config/site";
 import { getAdditionalInfos } from "../../lib/additionalInfo";
@@ -27,12 +29,13 @@ export default function HomePage() {
     posters.length > 0
       ? posters
       : [
-          { id: "dummy-poster-home-1", name: "Dummy Poster Paket", src: dummyPosterImage },
+          { id: "dummy-poster-home-1", name: "Dummy Poster Paket", src: extraPosterImage7 },
           { id: "dummy-poster-home-3", name: "Dummy Poster Paket 3", src: extraPosterImage2 },
           { id: "dummy-poster-home-4", name: "Dummy Poster Paket 4", src: extraPosterImage3 },
           { id: "dummy-poster-home-5", name: "Dummy Poster Paket 5", src: extraPosterImage4 },
           { id: "dummy-poster-home-6", name: "Dummy Poster Paket 6", src: extraPosterImage5 },
           { id: "dummy-poster-home-7", name: "Dummy Poster Paket 7", src: extraPosterImage6 },
+          { id: "dummy-poster-home-8", name: "Dummy Poster Paket 8", src: extraPosterImage7 },
         ];
   const promoPoster = { id: "promo-september", name: "Poster September", src: septemberPosterImage };
 
@@ -247,63 +250,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="w-full px-6 py-14 xl:px-12">
-        <div className="mb-6 text-center">
-          <p className="text-xs font-bold uppercase tracking-[0.2em] text-gold">Galeri Jamaah</p>
-          <h2 className="mt-1 font-heading text-3xl text-navy">Dokumentasi Setiap Perjalanan</h2>
-          <p className="mt-2 text-sm text-slate-600 sm:text-base">
-            Foto kegiatan jamaah selama menjalankan ibadah di Tanah Suci. Foto asli menyusul.
-          </p>
-        </div>
-        <div className="mb-4 flex items-center justify-between gap-3">
-          <p className="text-sm text-slate-600">Geser kiri/kanan atau biarkan berganti otomatis.</p>
-          <div className="hidden gap-2 sm:flex">
-            <button
-              type="button"
-              onClick={() => scrollTrack(galleryRef, -1)}
-              className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-navy/15 bg-white text-navy shadow-sm transition hover:bg-navy/5"
-              aria-label="Lihat dokumentasi sebelumnya"
-            >
-              {"<"}
-            </button>
-            <button
-              type="button"
-              onClick={() => scrollTrack(galleryRef, 1)}
-              className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-navy/15 bg-white text-navy shadow-sm transition hover:bg-navy/5"
-              aria-label="Lihat dokumentasi berikutnya"
-            >
-              {">"}
-            </button>
-          </div>
-        </div>
-        <div ref={galleryRef} className="no-scrollbar flex snap-x snap-mandatory gap-4 overflow-x-auto pb-2 scroll-smooth">
-          {gallerySlides.map((item) => (
-            <article
-              key={item.title}
-              data-gallery-slide
-              className="w-[92vw] shrink-0 snap-center overflow-hidden rounded-3xl border border-navy/10 bg-white shadow-soft sm:w-[620px] lg:w-[760px]"
-            >
-              <div className="overflow-hidden bg-[#f7f3eb]">
-                <img src={item.image} alt={item.title} className="block h-[220px] w-full object-cover sm:h-[340px] lg:h-[400px]" />
-              </div>
-            </article>
-          ))}
-        </div>
-        <div className="mt-5 flex items-center justify-center gap-2">
-          {gallerySlides.map((_, index) => (
-            <button
-              key={index}
-              type="button"
-              onClick={() => scrollToGallerySlide(index)}
-              className={`h-2.5 rounded-full transition-all ${
-                index === activeGalleryIndex ? "w-8 bg-navy" : "w-2.5 bg-navy/25 hover:bg-navy/40"
-              }`}
-              aria-label={`Pilih slide dokumentasi ${index + 1}`}
-            />
-          ))}
-        </div>
-      </section>
-
       <section className="w-full bg-white/70 px-6 py-14 xl:px-12">
         <div className="mb-6 flex items-end justify-between">
           <div>
@@ -508,6 +454,64 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="w-full px-6 py-14 xl:px-12">
+        <div className="mb-6 text-center">
+          <p className="text-xs font-bold uppercase tracking-[0.2em] text-gold">Galeri Jamaah</p>
+          <h2 className="mt-1 font-heading text-3xl text-navy">Dokumentasi Setiap Perjalanan</h2>
+          <p className="mt-2 text-sm text-slate-600 sm:text-base">
+            Foto kegiatan jamaah selama menjalankan ibadah di Tanah Suci. Foto asli menyusul.
+          </p>
+        </div>
+        <div className="mb-4 flex items-center justify-between gap-3">
+          <p className="text-sm text-slate-600">Geser kiri/kanan atau biarkan berganti otomatis.</p>
+          <div className="hidden gap-2 sm:flex">
+            <button
+              type="button"
+              onClick={() => scrollTrack(galleryRef, -1)}
+              className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-navy/15 bg-white text-navy shadow-sm transition hover:bg-navy/5"
+              aria-label="Lihat dokumentasi sebelumnya"
+            >
+              {"<"}
+            </button>
+            <button
+              type="button"
+              onClick={() => scrollTrack(galleryRef, 1)}
+              className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-navy/15 bg-white text-navy shadow-sm transition hover:bg-navy/5"
+              aria-label="Lihat dokumentasi berikutnya"
+            >
+              {">"}
+            </button>
+          </div>
+        </div>
+        <div ref={galleryRef} className="no-scrollbar flex snap-x snap-mandatory gap-4 overflow-x-auto pb-2 scroll-smooth">
+          {gallerySlides.map((item) => (
+            <article
+              key={item.title}
+              data-gallery-slide
+              className="w-[92vw] shrink-0 snap-center overflow-hidden rounded-3xl border border-navy/10 bg-white shadow-soft sm:w-[620px] lg:w-[760px]"
+            >
+              <div className="overflow-hidden bg-[#f7f3eb]">
+                <img src={item.image} alt={item.title} className="block h-[220px] w-full object-cover sm:h-[340px] lg:h-[400px]" />
+              </div>
+            </article>
+          ))}
+        </div>
+        <div className="mt-5 flex items-center justify-center gap-2">
+          {gallerySlides.map((_, index) => (
+            <button
+              key={index}
+              type="button"
+              onClick={() => scrollToGallerySlide(index)}
+              className={`h-2.5 rounded-full transition-all ${
+                index === activeGalleryIndex ? "w-8 bg-navy" : "w-2.5 bg-navy/25 hover:bg-navy/40"
+              }`}
+              aria-label={`Pilih slide dokumentasi ${index + 1}`}
+            />
+          ))}
+        </div>
+      </section>
+
+
       <section className="bg-gradient-to-r from-[#0f4db8] to-[#0b79f2] px-6 py-14 text-white xl:px-12">
         <div className="grid gap-8 lg:grid-cols-4">
           <div>
@@ -585,4 +589,5 @@ export default function HomePage() {
     </div>
   );
 }
+
 

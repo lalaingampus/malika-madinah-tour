@@ -193,13 +193,22 @@ export default function PackagesPage() {
         <div className="grid gap-5 lg:grid-cols-3">
           {filteredPackages.map((item) => (
             <article key={item.id} className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-soft">
-              <div className="relative border-b border-slate-100 bg-[#fbfcff] p-3">
-                <img src={item.image} alt={item.title} className="h-56 w-full rounded-xl object-cover" />
-                {item.badge && (
-                  <span className="absolute right-5 top-5 rounded-full bg-[#ef4444] px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-white">
-                    {item.badge}
-                  </span>
-                )}
+              <div className="border-b border-slate-100 bg-[#fbfcff] p-3">
+                <div className="relative overflow-hidden rounded-xl">
+                  <img src={item.image} alt={item.title} className="h-56 w-full object-cover" />
+                  {item.sold && (
+                    <div className="absolute inset-0 flex items-center justify-center bg-black/20">
+                      <span className="text-4xl font-black uppercase tracking-[0.12em] text-white drop-shadow-[0_3px_10px_rgba(0,0,0,0.7)] sm:text-5xl">
+                        SOLD
+                      </span>
+                    </div>
+                  )}
+                  {item.badge && (
+                    <span className="absolute right-3 top-3 z-10 rounded-full bg-[#ef4444] px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-white shadow">
+                      {item.badge}
+                    </span>
+                  )}
+                </div>
               </div>
 
               <div className="p-4">
@@ -216,7 +225,7 @@ export default function PackagesPage() {
                   <div className="grid grid-cols-2 gap-3 text-sm text-slate-600">
                     <div>
                       <p className="text-[11px] uppercase tracking-wide text-slate-400">Sisa Seat</p>
-                      <p className="font-semibold text-navy">{item.seats} seat</p>
+                      <p className="font-semibold text-navy">{item.sold ? "0 seat" : `${item.seats} seat`}</p>
                     </div>
                     <div>
                       <p className="text-[11px] uppercase tracking-wide text-slate-400">Promo</p>
@@ -285,3 +294,4 @@ export default function PackagesPage() {
     </div>
   );
 }
+

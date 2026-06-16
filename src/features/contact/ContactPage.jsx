@@ -37,9 +37,25 @@ export default function ContactPage() {
     <section className="grid w-full gap-8 px-6 py-14 md:grid-cols-2 xl:px-12">
       <div>
         <h2 className="font-heading text-3xl text-navy">Kontak Konsultasi</h2>
-        <p className="mt-3 text-sm text-slate-600">{siteConfig.address}</p>
-        <p className="text-sm text-slate-600">WhatsApp: {siteConfig.phone}</p>
-        <p className="text-sm text-slate-600">Email: {siteConfig.email}</p>
+        <div className="mt-5 space-y-4 text-sm text-slate-600">
+          {Array.isArray(siteConfig.address) ? (
+            siteConfig.address.map((addressLine, index) => (
+              <div key={addressLine} className="rounded-2xl border border-navy/10 bg-white/70 p-4 shadow-sm">
+                <p className="text-xs font-bold uppercase tracking-[0.18em] text-gold">Alamat {index + 1}</p>
+                <p className="mt-2 leading-7">{addressLine}</p>
+              </div>
+            ))
+          ) : (
+            <div className="rounded-2xl border border-navy/10 bg-white/70 p-4 shadow-sm">
+              <p className="text-xs font-bold uppercase tracking-[0.18em] text-gold">Alamat</p>
+              <p className="mt-2 leading-7">{siteConfig.address}</p>
+            </div>
+          )}
+        </div>
+        <div className="mt-5 space-y-2 text-sm text-slate-600">
+          <p>WhatsApp: {siteConfig.phone}</p>
+          <p>Email: {siteConfig.email}</p>
+        </div>
       </div>
 
       <form onSubmit={handleSubmit} className="rounded-2xl bg-navy p-5 text-sm text-white shadow-soft">
