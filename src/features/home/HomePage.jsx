@@ -14,6 +14,7 @@ import bankInfoImage from "../../assets/image_rekening_2.png";
 import { siteConfig } from "../../config/site";
 import { getAdditionalInfos } from "../../lib/additionalInfo";
 import { getPosters } from "../../lib/posters";
+import { packageCards } from "../packages/data";
 import { features, gallerySlides, testimonials, umrahPackages } from "./data";
 
 export default function HomePage() {
@@ -25,11 +26,11 @@ export default function HomePage() {
   const galleryRef = useRef(null);
   const testimonialRef = useRef(null);
 
-  const displayPosters =
+  const uploadedOrFallbackPosters =
     posters.length > 0
       ? posters
       : [
-          { id: "dummy-poster-home-1", name: "Dummy Poster Paket", src: extraPosterImage7 },
+          { id: "dummy-poster-home-1", name: "Dummy Poster Paket", src: dummyPosterImage },
           { id: "dummy-poster-home-3", name: "Dummy Poster Paket 3", src: extraPosterImage2 },
           { id: "dummy-poster-home-4", name: "Dummy Poster Paket 4", src: extraPosterImage3 },
           { id: "dummy-poster-home-5", name: "Dummy Poster Paket 5", src: extraPosterImage4 },
@@ -37,6 +38,12 @@ export default function HomePage() {
           { id: "dummy-poster-home-7", name: "Dummy Poster Paket 7", src: extraPosterImage6 },
           { id: "dummy-poster-home-8", name: "Dummy Poster Paket 8", src: extraPosterImage7 },
         ];
+
+  const displayPosters = Array.from(
+    new Map(
+      [...uploadedOrFallbackPosters, ...packageCards.map((item) => ({ id: `package-poster-${item.id}`, name: item.title, src: item.image }))].map((item) => [item.src, item])
+    ).values()
+  );
   const promoPoster = { id: "promo-september", name: "Poster September", src: septemberPosterImage };
 
   useEffect(() => {
@@ -261,7 +268,7 @@ export default function HomePage() {
           </Link>
         </div>
         <div className="mt-5 flex snap-x snap-mandatory gap-4 overflow-x-auto pb-2 sm:mt-0 sm:grid sm:grid-cols-2 sm:overflow-visible lg:grid-cols-3">
-          {displayPosters.slice(0, 6).map((poster) => (
+          {displayPosters.map((poster) => (
             <article key={poster.id} className="mx-auto w-[86%] flex-none snap-center overflow-hidden rounded-2xl bg-white shadow-soft sm:w-auto">
               <img src={poster.src} alt={poster.name || "Poster promo"} className="h-auto w-full object-contain" />
             </article>

@@ -33,7 +33,7 @@ export default function PackagesPage() {
     load();
   }, []);
 
-  const displayPosters =
+  const uploadedOrFallbackPosters =
     posters.length > 0
       ? posters
       : [
@@ -42,6 +42,12 @@ export default function PackagesPage() {
           { id: "dummy-poster-3", name: "Dummy Poster Paket 3", src: extraPosterImage2 },
           { id: "dummy-poster-4", name: "Dummy Poster Paket 4", src: extraPosterImage3 },
         ];
+
+  const displayPosters = Array.from(
+    new Map(
+      [...uploadedOrFallbackPosters, ...packageCards.map((item) => ({ id: `package-poster-${item.id}`, name: item.title, src: item.image }))].map((item) => [item.src, item])
+    ).values()
+  );
 
   const filterOptions = useMemo(
     () => ({
