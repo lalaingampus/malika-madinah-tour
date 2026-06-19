@@ -99,4 +99,12 @@ export const testimonials = [
     quote:
       "Pelayanan cepat dan informasinya jelas. Tim responsif ketika kami bertanya soal jadwal dan kebutuhan dokumen.",
   },
+  {
+    name: "Andi Mu'in",
+    location: "Jamaah",
+    rating: 5,
+    packageName: "Paket Umroh Plus Thaif",
+    quote:
+      "Alur persiapan berangkat terasa lebih ringan karena tim cepat merespons dan detail informasinya mudah dipahami sejak awal.",
+  },
 ];

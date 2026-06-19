@@ -1,11 +1,6 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import dummyPosterImage from "../../assets/WhatsApp Image 2026-05-09 at 09.29.33.jpeg";
-import extraPosterImage from "../../assets/WhatsApp Image 2026-06-06 at 23.43.35.jpeg";
-import extraPosterImage2 from "../../assets/WhatsApp Image 2026-06-07 at 14.19.41.jpeg";
-import extraPosterImage3 from "../../assets/WhatsApp Image 2026-06-07 at 14.19.42.jpeg";
 import { siteConfig } from "../../config/site";
-import { getPosters } from "../../lib/posters";
 import { packageCards } from "./data";
 
 const defaultFilters = {
@@ -16,38 +11,9 @@ const defaultFilters = {
 };
 
 export default function PackagesPage() {
-  const [posters, setPosters] = useState([]);
-  const [activeIndex, setActiveIndex] = useState(0);
   const [filters, setFilters] = useState(defaultFilters);
-  const sliderRef = useRef(null);
   const resultsRef = useRef(null);
 
-  useEffect(() => {
-    const load = async () => {
-      try {
-        setPosters(await getPosters());
-      } catch {
-        setPosters([]);
-      }
-    };
-    load();
-  }, []);
-
-  const uploadedOrFallbackPosters =
-    posters.length > 0
-      ? posters
-      : [
-          { id: "dummy-poster-1", name: "Dummy Poster Paket", src: dummyPosterImage },
-          { id: "dummy-poster-2", name: "Dummy Poster Paket 2", src: extraPosterImage },
-          { id: "dummy-poster-3", name: "Dummy Poster Paket 3", src: extraPosterImage2 },
-          { id: "dummy-poster-4", name: "Dummy Poster Paket 4", src: extraPosterImage3 },
-        ];
-
-  const displayPosters = Array.from(
-    new Map(
-      [...uploadedOrFallbackPosters, ...packageCards.map((item) => ({ id: `package-poster-${item.id}`, name: item.title, src: item.image }))].map((item) => [item.src, item])
-    ).values()
-  );
 
   const filterOptions = useMemo(
     () => ({
@@ -85,15 +51,6 @@ export default function PackagesPage() {
     setFilters(defaultFilters);
   };
 
-  const scrollToIndex = (index) => {
-    const slider = sliderRef.current;
-    if (!slider) return;
-    const clamped = Math.max(0, Math.min(index, displayPosters.length - 1));
-    const el = slider.children[clamped];
-    if (!el) return;
-    el.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
-    setActiveIndex(clamped);
-  };
 
   return (
     <div className="w-full px-6 py-14 xl:px-12">
@@ -273,30 +230,6 @@ export default function PackagesPage() {
         )}
       </section>
 
-      <section className="mt-12">
-        <h3 className="font-heading text-2xl text-navy">Poster Promo Paket</h3>
-        <p className="mt-2 text-sm text-slate-500 sm:hidden">Geser kiri/kanan untuk lihat poster lainnya.</p>
-        <div ref={sliderRef} className="mt-5 flex snap-x snap-mandatory gap-4 overflow-x-auto pb-2 sm:grid sm:grid-cols-2 sm:overflow-visible lg:grid-cols-3">
-          {displayPosters.map((poster) => (
-            <article key={poster.id} className="mx-auto w-[86%] flex-none snap-center overflow-hidden rounded-2xl bg-white shadow-soft sm:w-auto">
-              <img src={poster.src} alt={poster.name || "Poster promo"} className="h-auto w-full object-contain" />
-            </article>
-          ))}
-        </div>
-        {displayPosters.length > 1 && (
-          <div className="mt-4 flex justify-center gap-2 sm:hidden">
-            {displayPosters.map((poster, index) => (
-              <button
-                key={poster.id}
-                type="button"
-                onClick={() => scrollToIndex(index)}
-                className={`h-2.5 w-2.5 rounded-full ${index === activeIndex ? "bg-navy" : "bg-navy/30"}`}
-                aria-label={`Poster ${index + 1}`}
-              />
-            ))}
-          </div>
-        )}
-      </section>
     </div>
   );
 }
