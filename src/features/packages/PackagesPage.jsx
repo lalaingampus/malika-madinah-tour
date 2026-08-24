@@ -12,6 +12,7 @@ const defaultFilters = {
 
 export default function PackagesPage() {
   const [filters, setFilters] = useState(defaultFilters);
+  const [loadedImages, setLoadedImages] = useState({});
   const resultsRef = useRef(null);
 
 
@@ -49,6 +50,10 @@ export default function PackagesPage() {
 
   const resetFilters = () => {
     setFilters(defaultFilters);
+  };
+
+  const markImageLoaded = (id) => {
+    setLoadedImages((prev) => (prev[id] ? prev : { ...prev, [id]: true }));
   };
 
 
@@ -154,11 +159,21 @@ export default function PackagesPage() {
         </div>
 
         <div className="grid gap-5 lg:grid-cols-3">
-          {filteredPackages.map((item) => (
+          {filteredPackages.map((item, index) => (
             <article key={item.id} className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-soft">
               <div className="border-b border-slate-100 bg-[#fbfcff] p-3">
                 <div className="relative overflow-hidden rounded-xl">
-                  <img src={item.image} alt={item.title} className="h-56 w-full object-cover" />
+                  {!loadedImages[item.id] && <div className="absolute inset-0 animate-pulse bg-slate-200" aria-hidden="true" />}
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    loading={index < 2 ? "eager" : "lazy"}
+                    fetchPriority={index < 2 ? "high" : "auto"}
+                    decoding="async"
+                    onLoad={() => markImageLoaded(item.id)}
+                    onError={() => markImageLoaded(item.id)}
+                    className={`h-56 w-full object-cover transition-opacity duration-300 ${loadedImages[item.id] ? "opacity-100" : "opacity-0"}`}
+                  />
                   {item.sold && (
                     <div className="absolute inset-0 flex items-center justify-center bg-black/20">
                       <span className="text-4xl font-black uppercase tracking-[0.12em] text-white drop-shadow-[0_3px_10px_rgba(0,0,0,0.7)] sm:text-5xl">

@@ -1,0 +1,329 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - link [ref=f1e386] [cursor=pointer]:
+        - /url: "#/"
+        - img "Logo PT Malika Royal Madinah" [ref=f1e7]
+      - button "Buka menu" [ref=f1e387] [cursor=pointer]
+  - complementary [ref=f1e391]:
+    - generic [ref=f1e392]:
+      - img "Logo PT Malika Royal Madinah" [ref=f1e393]
+      - button "Tutup menu" [ref=f1e394] [cursor=pointer]: x
+    - navigation [ref=f1e395]:
+      - link "Home" [ref=f1e396] [cursor=pointer]:
+        - /url: "#/"
+      - link "Paket" [ref=f1e397] [cursor=pointer]:
+        - /url: "#/paket"
+      - link "Planner" [ref=f1e398] [cursor=pointer]:
+        - /url: "#/smart-planner"
+      - link "Kontak" [ref=f1e399] [cursor=pointer]:
+        - /url: "#/kontak"
+      - link "Artikel" [ref=f1e400] [cursor=pointer]:
+        - /url: "#/artikel"
+      - link "Informasi" [ref=f1e401] [cursor=pointer]:
+        - /url: "#/informasi"
+      - link "Login Admin" [ref=f1e402] [cursor=pointer]:
+        - /url: "#/admin-login"
+  - generic:
+    - generic:
+      - paragraph: Login Berhasil
+      - paragraph: Anda berhasil masuk ke dashboard admin.
+  - img "Loading PT Malika Royal Madinah" [ref=f1e20]
+  - main [ref=f1e1035]:
+    - generic [ref=f1e1036]:
+      - generic [ref=f1e1037]:
+        - generic [ref=f1e1038]:
+          - heading "Transaksi Paket Umrah" [level=1] [ref=f1e1039]
+          - paragraph [ref=f1e1040]: Pilih jadwal keberangkatan dan jenis paket yang paling sesuai. Versi ini masih frontend-only, jadi filter bekerja dari data paket yang sudah tersedia di halaman.
+        - generic [ref=f1e1041]:
+          - generic [ref=f1e1042]:
+            - generic [ref=f1e1043]: Keberangkatan
+            - combobox "Keberangkatan" [ref=f1e1044]:
+              - option "Semua Data" [selected]
+              - option "September 2026"
+              - option "Juni 2026"
+              - option "Desember 2026"
+              - option "November 2026"
+              - option "Januari 2026"
+              - option "Januari 2027"
+              - option "Maret 2027"
+          - generic [ref=f1e1045]:
+            - generic [ref=f1e1046]: Jenis Paket
+            - combobox "Jenis Paket" [ref=f1e1047]:
+              - option "Semua Data" [selected]
+              - option "Plus Thaif"
+              - option "Awal Musim"
+              - option "Plus Thaif Premium"
+              - option "Plus Thaif Sekamar Ber 4"
+              - option "Liburan Desember"
+              - option "Liburan Januari"
+              - option "Syawal 2027"
+          - generic [ref=f1e1048]:
+            - generic [ref=f1e1049]: Bandara
+            - combobox "Bandara" [ref=f1e1050]:
+              - option "Semua Data" [selected]
+              - option "Soekarno-Hatta (CGK)"
+          - generic [ref=f1e1051]:
+            - generic [ref=f1e1052]: Promo
+            - combobox "Promo" [ref=f1e1053]:
+              - option "Semua Data" [selected]
+              - option "Promo"
+              - option "Non Promo"
+          - generic [ref=f1e1054]:
+            - button "Cari" [ref=f1e1055] [cursor=pointer]
+            - button "Reset" [ref=f1e1056] [cursor=pointer]
+      - generic [ref=f1e1057]:
+        - generic [ref=f1e1059]:
+          - heading "Pilihan Paket" [level=2] [ref=f1e1060]
+          - paragraph [ref=f1e1061]: Menampilkan 9 paket dari data frontend saat ini.
+        - generic [ref=f1e1062]:
+          - article [ref=f1e1063]:
+            - generic [ref=f1e1065]:
+              - img "Paket Umroh Plus Thaif" [ref=f1e1066]
+              - generic [ref=f1e1067]: Promo
+            - generic [ref=f1e1068]:
+              - heading "Paket Umroh Plus Thaif" [level=3] [ref=f1e1069]
+              - generic [ref=f1e1070]:
+                - paragraph [ref=f1e1071]: 21 September 2026
+                - paragraph [ref=f1e1072]: Jada Ajyad (Makkah)
+                - paragraph [ref=f1e1073]: Mukhtar Al Gharbi (Madinah)
+                - paragraph [ref=f1e1074]: Qatar Airways / Oman Air / Etihad
+                - paragraph [ref=f1e1075]: Soekarno-Hatta (CGK)
+              - generic [ref=f1e1077]:
+                - generic [ref=f1e1078]:
+                  - paragraph [ref=f1e1079]: Sisa Seat
+                  - paragraph [ref=f1e1080]: 20 seat
+                - generic [ref=f1e1081]:
+                  - paragraph [ref=f1e1082]: Promo
+                  - paragraph [ref=f1e1083]: Ya
+              - generic [ref=f1e1084]:
+                - paragraph [ref=f1e1085]: Harga mulai
+                - paragraph [ref=f1e1086]: Rp 25.000.000
+              - generic [ref=f1e1087]:
+                - link "Detail Paket" [ref=f1e1088] [cursor=pointer]:
+                  - /url: "#/paket/plus-thaif-september"
+                - link "Booking" [ref=f1e1089] [cursor=pointer]:
+                  - /url: https://wa.me/6287717171749?text=Assalamualaikum%2C%20saya%20ingin%20booking%20Paket%20Umroh%20Plus%20Thaif.%20Mohon%20info%20detailnya.
+          - article [ref=f1e1090]:
+            - generic [ref=f1e1092]:
+              - img "Paket Umroh Awal Musim" [ref=f1e1093]
+              - generic [ref=f1e1094]: SOLD
+              - generic [ref=f1e1096]: Promo
+            - generic [ref=f1e1097]:
+              - heading "Paket Umroh Awal Musim" [level=3] [ref=f1e1098]
+              - generic [ref=f1e1099]:
+                - paragraph [ref=f1e1100]: 28 Juni 2026
+                - paragraph [ref=f1e1101]: Waha Ajyad (Makkah)
+                - paragraph [ref=f1e1102]: Mukhtar Al Gharbi (Madinah)
+                - paragraph [ref=f1e1103]: Etihad / Oman Air
+                - paragraph [ref=f1e1104]: Soekarno-Hatta (CGK)
+              - generic [ref=f1e1106]:
+                - generic [ref=f1e1107]:
+                  - paragraph [ref=f1e1108]: Sisa Seat
+                  - paragraph [ref=f1e1109]: 0 seat
+                - generic [ref=f1e1110]:
+                  - paragraph [ref=f1e1111]: Promo
+                  - paragraph [ref=f1e1112]: Ya
+              - generic [ref=f1e1113]:
+                - paragraph [ref=f1e1114]: Harga mulai
+                - paragraph [ref=f1e1115]: Rp 26.000.000
+              - generic [ref=f1e1116]:
+                - link "Detail Paket" [ref=f1e1117] [cursor=pointer]:
+                  - /url: "#/paket/awal-musim"
+                - link "Booking" [ref=f1e1118] [cursor=pointer]:
+                  - /url: https://wa.me/6287717171749?text=Assalamualaikum%2C%20saya%20ingin%20booking%20Paket%20Umroh%20Awal%20Musim.%20Mohon%20info%20detailnya.
+          - article [ref=f1e1119]:
+            - img "Paket Umroh Plus Thaif Desember" [ref=f1e1122]
+            - generic [ref=f1e1123]:
+              - heading "Paket Umroh Plus Thaif Desember" [level=3] [ref=f1e1124]
+              - generic [ref=f1e1125]:
+                - paragraph [ref=f1e1126]: 18 Desember 2026
+                - paragraph [ref=f1e1127]: Jada Ajyad (Makkah)
+                - paragraph [ref=f1e1128]: Mukhtar Al Gharbi (Madinah)
+                - paragraph [ref=f1e1129]: Saudia
+                - paragraph [ref=f1e1130]: Soekarno-Hatta (CGK)
+              - generic [ref=f1e1132]:
+                - generic [ref=f1e1133]:
+                  - paragraph [ref=f1e1134]: Sisa Seat
+                  - paragraph [ref=f1e1135]: 18 seat
+                - generic [ref=f1e1136]:
+                  - paragraph [ref=f1e1137]: Promo
+                  - paragraph [ref=f1e1138]: Tidak
+              - generic [ref=f1e1139]:
+                - paragraph [ref=f1e1140]: Harga mulai
+                - paragraph [ref=f1e1141]: Rp 29.000.000
+              - generic [ref=f1e1142]:
+                - link "Detail Paket" [ref=f1e1143] [cursor=pointer]:
+                  - /url: "#/paket/plus-thaif-desember"
+                - link "Booking" [ref=f1e1144] [cursor=pointer]:
+                  - /url: https://wa.me/6287717171749?text=Assalamualaikum%2C%20saya%20ingin%20booking%20Paket%20Umroh%20Plus%20Thaif%20Desember.%20Mohon%20info%20detailnya.
+          - article [ref=f1e1145]:
+            - generic [ref=f1e1147]:
+              - img "Paket Umroh Plus Thaif Premium" [ref=f1e1148]
+              - generic [ref=f1e1149]: Promo
+            - generic [ref=f1e1150]:
+              - heading "Paket Umroh Plus Thaif Premium" [level=3] [ref=f1e1151]
+              - generic [ref=f1e1152]:
+                - paragraph [ref=f1e1153]: Sesuai jadwal brosur
+                - paragraph [ref=f1e1154]: Jada Ajyad (Makkah)
+                - paragraph [ref=f1e1155]: Mukhtar Al Gharbi (Madinah)
+                - paragraph [ref=f1e1156]: Qatar Airways / Oman Air / Etihad
+                - paragraph [ref=f1e1157]: Soekarno-Hatta (CGK)
+              - generic [ref=f1e1159]:
+                - generic [ref=f1e1160]:
+                  - paragraph [ref=f1e1161]: Sisa Seat
+                  - paragraph [ref=f1e1162]: 16 seat
+                - generic [ref=f1e1163]:
+                  - paragraph [ref=f1e1164]: Promo
+                  - paragraph [ref=f1e1165]: Ya
+              - generic [ref=f1e1166]:
+                - paragraph [ref=f1e1167]: Harga mulai
+                - paragraph [ref=f1e1168]: Rp 26.000.000
+              - generic [ref=f1e1169]:
+                - link "Detail Paket" [ref=f1e1170] [cursor=pointer]:
+                  - /url: "#/paket/plus-thaif-premium"
+                - link "Booking" [ref=f1e1171] [cursor=pointer]:
+                  - /url: https://wa.me/6287717171749?text=Assalamualaikum%2C%20saya%20ingin%20booking%20Paket%20Umroh%20Plus%20Thaif%20Premium.%20Mohon%20info%20detailnya.
+          - article [ref=f1e1172]:
+            - img "Paket Umroh Plus Thaif Sekamar Ber 4" [ref=f1e1175]
+            - generic [ref=f1e1176]:
+              - heading "Paket Umroh Plus Thaif Sekamar Ber 4" [level=3] [ref=f1e1177]
+              - generic [ref=f1e1178]:
+                - paragraph [ref=f1e1179]: 15 November 2026
+                - paragraph [ref=f1e1180]: Waha Ajyad (Makkah)
+                - paragraph [ref=f1e1181]: Mukhtar Al Gharbi (Madinah)
+                - paragraph [ref=f1e1182]: Saudia
+                - paragraph [ref=f1e1183]: Soekarno-Hatta (CGK)
+              - generic [ref=f1e1185]:
+                - generic [ref=f1e1186]:
+                  - paragraph [ref=f1e1187]: Sisa Seat
+                  - paragraph [ref=f1e1188]: 14 seat
+                - generic [ref=f1e1189]:
+                  - paragraph [ref=f1e1190]: Promo
+                  - paragraph [ref=f1e1191]: Tidak
+              - generic [ref=f1e1192]:
+                - paragraph [ref=f1e1193]: Harga mulai
+                - paragraph [ref=f1e1194]: Rp 28.500.000
+              - generic [ref=f1e1195]:
+                - link "Detail Paket" [ref=f1e1196] [cursor=pointer]:
+                  - /url: "#/paket/sekamar-ber4"
+                - link "Booking" [ref=f1e1197] [cursor=pointer]:
+                  - /url: https://wa.me/6287717171749?text=Assalamualaikum%2C%20saya%20ingin%20booking%20Paket%20Umroh%20Plus%20Thaif%20Sekamar%20Ber%204.%20Mohon%20info%20detailnya.
+          - article [ref=f1e1198]:
+            - img "Paket Umroh Liburan Desember" [ref=f1e1201]
+            - generic [ref=f1e1202]:
+              - heading "Paket Umroh Liburan Desember" [level=3] [ref=f1e1203]
+              - generic [ref=f1e1204]:
+                - paragraph [ref=f1e1205]: 19 Desember 2026
+                - paragraph [ref=f1e1206]: Jada Ajyad / Setaraf (Makkah)
+                - paragraph [ref=f1e1207]: Mukhtar Al Gharbi / Setaraf (Madinah)
+                - paragraph [ref=f1e1208]: Saudia
+                - paragraph [ref=f1e1209]: Soekarno-Hatta (CGK)
+              - generic [ref=f1e1211]:
+                - generic [ref=f1e1212]:
+                  - paragraph [ref=f1e1213]: Sisa Seat
+                  - paragraph [ref=f1e1214]: 24 seat
+                - generic [ref=f1e1215]:
+                  - paragraph [ref=f1e1216]: Promo
+                  - paragraph [ref=f1e1217]: Tidak
+              - generic [ref=f1e1218]:
+                - paragraph [ref=f1e1219]: Harga mulai
+                - paragraph [ref=f1e1220]: Mulai Rp 29.000.000
+              - generic [ref=f1e1221]:
+                - link "Detail Paket" [ref=f1e1222] [cursor=pointer]:
+                  - /url: "#/paket/liburan-desember"
+                - link "Booking" [ref=f1e1223] [cursor=pointer]:
+                  - /url: https://wa.me/6287717171749?text=Assalamualaikum%2C%20saya%20ingin%20booking%20Paket%20Umroh%20Liburan%20Desember.%20Mohon%20info%20detailnya.
+          - article [ref=f1e1224]:
+            - img "Paket Umroh Liburan Januari 2026" [ref=f1e1227]
+            - generic [ref=f1e1228]:
+              - heading "Paket Umroh Liburan Januari 2026" [level=3] [ref=f1e1229]
+              - generic [ref=f1e1230]:
+                - paragraph [ref=f1e1231]: 16 Januari 2026
+                - paragraph [ref=f1e1232]: Fajr Badie 4 / Badr Almassa (Makkah)
+                - paragraph [ref=f1e1233]: Mukhtar Al Gharbi (Madinah)
+                - paragraph [ref=f1e1234]: IndiGo
+                - paragraph [ref=f1e1235]: Soekarno-Hatta (CGK)
+              - generic [ref=f1e1237]:
+                - generic [ref=f1e1238]:
+                  - paragraph [ref=f1e1239]: Sisa Seat
+                  - paragraph [ref=f1e1240]: 12 seat
+                - generic [ref=f1e1241]:
+                  - paragraph [ref=f1e1242]: Promo
+                  - paragraph [ref=f1e1243]: Tidak
+              - generic [ref=f1e1244]:
+                - paragraph [ref=f1e1245]: Harga mulai
+                - paragraph [ref=f1e1246]: Mulai Rp 24.900.000
+              - generic [ref=f1e1247]:
+                - link "Detail Paket" [ref=f1e1248] [cursor=pointer]:
+                  - /url: "#/paket/liburan-januari-2026"
+                - link "Booking" [ref=f1e1249] [cursor=pointer]:
+                  - /url: https://wa.me/6287717171749?text=Assalamualaikum%2C%20saya%20ingin%20booking%20Paket%20Umroh%20Liburan%20Januari%202026.%20Mohon%20info%20detailnya.
+          - article [ref=f1e1250]:
+            - generic [ref=f1e1252]:
+              - img "Paket Umroh Liburan Januari 2027" [ref=f1e1253]
+              - generic [ref=f1e1254]: Promo
+            - generic [ref=f1e1255]:
+              - heading "Paket Umroh Liburan Januari 2027" [level=3] [ref=f1e1256]
+              - generic [ref=f1e1257]:
+                - paragraph [ref=f1e1258]: 16 Januari 2027
+                - paragraph [ref=f1e1259]: Fajr Badie 4 / Badr Almassa (Makkah)
+                - paragraph [ref=f1e1260]: Mukhtar Al Gharbi (Madinah)
+                - paragraph [ref=f1e1261]: IndiGo
+                - paragraph [ref=f1e1262]: Soekarno-Hatta (CGK)
+              - generic [ref=f1e1264]:
+                - generic [ref=f1e1265]:
+                  - paragraph [ref=f1e1266]: Sisa Seat
+                  - paragraph [ref=f1e1267]: 22 seat
+                - generic [ref=f1e1268]:
+                  - paragraph [ref=f1e1269]: Promo
+                  - paragraph [ref=f1e1270]: Ya
+              - generic [ref=f1e1271]:
+                - paragraph [ref=f1e1272]: Harga mulai
+                - paragraph [ref=f1e1273]: Mulai Rp 24.900.000
+              - generic [ref=f1e1274]:
+                - link "Detail Paket" [ref=f1e1275] [cursor=pointer]:
+                  - /url: "#/paket/liburan-januari-2027"
+                - link "Booking" [ref=f1e1276] [cursor=pointer]:
+                  - /url: https://wa.me/6287717171749?text=Assalamualaikum%2C%20saya%20ingin%20booking%20Paket%20Umroh%20Liburan%20Januari%202027.%20Mohon%20info%20detailnya.
+          - article [ref=f1e1277]:
+            - generic [ref=f1e1279]:
+              - img "Paket Umroh Syawal 2027" [ref=f1e1280]
+              - generic [ref=f1e1281]: Promo
+            - generic [ref=f1e1282]:
+              - heading "Paket Umroh Syawal 2027" [level=3] [ref=f1e1283]
+              - generic [ref=f1e1284]:
+                - paragraph [ref=f1e1285]: 15 Maret 2027
+                - paragraph [ref=f1e1286]: Waha Ajyad (Makkah)
+                - paragraph [ref=f1e1287]: Mukhtar Al Gharbi (Madinah)
+                - paragraph [ref=f1e1288]: Qatar Airways
+                - paragraph [ref=f1e1289]: Soekarno-Hatta (CGK)
+              - generic [ref=f1e1291]:
+                - generic [ref=f1e1292]:
+                  - paragraph [ref=f1e1293]: Sisa Seat
+                  - paragraph [ref=f1e1294]: 30 seat
+                - generic [ref=f1e1295]:
+                  - paragraph [ref=f1e1296]: Promo
+                  - paragraph [ref=f1e1297]: Ya
+              - generic [ref=f1e1298]:
+                - paragraph [ref=f1e1299]: Harga mulai
+                - paragraph [ref=f1e1300]: Mulai Rp 26.500.000
+              - generic [ref=f1e1301]:
+                - link "Detail Paket" [ref=f1e1302] [cursor=pointer]:
+                  - /url: "#/paket/syawal-2027"
+                - link "Booking" [ref=f1e1303] [cursor=pointer]:
+                  - /url: https://wa.me/6287717171749?text=Assalamualaikum%2C%20saya%20ingin%20booking%20Paket%20Umroh%20Syawal%202027.%20Mohon%20info%20detailnya.
+  - generic [ref=f1e381]:
+    - generic:
+      - paragraph: Kontak WhatsApp
+      - generic:
+        - link "CS 1 +62 877-1717-1749":
+          - /url: https://wa.me/6287717171749?text=Assalamualaikum%2C%20saya%20ingin%20konsultasi%20paket%20umrah.
+          - generic: CS 1
+          - generic: +62 877-1717-1749
+        - link "CS 2 +62 858-8284-8614":
+          - /url: https://wa.me/6285882848614?text=Assalamualaikum%2C%20saya%20ingin%20konsultasi%20paket%20umrah.
+          - generic: CS 2
+          - generic: +62 858-8284-8614
+    - button "Buka kontak WhatsApp" [ref=f1e382] [cursor=pointer]
+  - contentinfo [ref=f1e385]: Copyright 2026 - PT Malika Royal Madinah

@@ -1,0 +1,19 @@
+[      26ms] [ERROR] Warning: React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element.%s fetchPriority fetchpriority 
+    at img
+    at div
+    at div
+    at article
+    at div
+    at section
+    at div
+    at PackagesPage (http://127.0.0.1:4173/src/features/packages/PackagesPage.jsx?t=1785108918693:30:33)
+    at RenderedRoute (http://127.0.0.1:4173/node_modules/.vite/deps/react-router-dom.js?v=15cfe223:4131:5)
+    at Outlet (http://127.0.0.1:4173/node_modules/.vite/deps/react-router-dom.js?v=15cfe223:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:4173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:4173/node_modules/.vite/deps/react-router-dom.js?v=15cfe223:4131:5)
+    at Routes (http://127.0.0.1:4173/node_modules/.vite/deps/react-router-dom.js?v=15cfe223:4601:5)
+    at App
+    at Router (http://127.0.0.1:4173/node_modules/.vite/deps/react-router-dom.js?v=15cfe223:4544:15)
+    at HashRouter (http://127.0.0.1:4173/node_modules/.vite/deps/react-router-dom.js?v=15cfe223:5326:5) @ http://127.0.0.1:4173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=6bd132cb:520

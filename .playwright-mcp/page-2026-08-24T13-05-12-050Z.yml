@@ -1,0 +1,55 @@
+- generic [ref=f4e3]:
+  - banner [ref=f4e4]:
+    - generic [ref=f4e5]:
+      - link [ref=f4e6] [cursor=pointer]:
+        - /url: "#/"
+        - img "Logo PT Malika Royal Madinah" [ref=f4e7]
+      - button "Buka menu" [ref=f4e8] [cursor=pointer]
+  - complementary [ref=f4e12]:
+    - generic [ref=f4e13]:
+      - img "Logo PT Malika Royal Madinah" [ref=f4e14]
+      - button "Tutup menu" [ref=f4e15] [cursor=pointer]: x
+    - navigation [ref=f4e16]:
+      - link "Home" [ref=f4e17] [cursor=pointer]:
+        - /url: "#/"
+      - link "Paket" [ref=f4e18] [cursor=pointer]:
+        - /url: "#/paket"
+      - link "Planner" [ref=f4e19] [cursor=pointer]:
+        - /url: "#/smart-planner"
+      - link "Kontak" [ref=f4e20] [cursor=pointer]:
+        - /url: "#/kontak"
+      - link "Artikel" [ref=f4e21] [cursor=pointer]:
+        - /url: "#/artikel"
+      - link "Informasi" [ref=f4e22] [cursor=pointer]:
+        - /url: "#/informasi"
+      - link "Login Admin" [ref=f4e23] [cursor=pointer]:
+        - /url: "#/admin-login"
+  - generic:
+    - generic:
+      - paragraph: Login Berhasil
+      - paragraph: Anda berhasil masuk ke dashboard admin.
+  - img "Loading PT Malika Royal Madinah" [ref=f4e26]
+  - main [ref=f4e28]:
+    - article [ref=f4e29]:
+      - paragraph [ref=f4e30]: Siroh & Umroh - 5 menit
+      - heading "Pelajaran Hijrah untuk Perjalanan Umroh" [level=1] [ref=f4e31]
+      - paragraph [ref=f4e32]: Makna hijrah Nabi bisa jadi bekal mental saat memulai perjalanan ibadah ke Tanah Suci.
+      - generic [ref=f4e34]:
+        - paragraph [ref=f4e35]: Hijrah Nabi Muhammad Shallallahu ‘Alaihi wa Sallam mengajarkan kesiapan, tawakal, dan strategi. Dalam konteks umroh, jamaah juga perlu menyiapkan niat, fisik, dan dokumen dengan tertib. Jangan panik saat proses bandara atau perubahan jadwal kecil; tetap tenang dan fokus pada tujuan ibadah.
+        - paragraph [ref=f4e36]: Pelajaran penting lainnya adalah kebersamaan. Hijrah tidak dilakukan sendirian, ada dukungan sahabat. Begitu pula saat umroh, saling bantu antarjamaah akan membuat perjalanan lebih ringan. Hormati rombongan, disiplin waktu, dan jaga adab di tempat suci.
+      - link "Kembali ke Artikel" [ref=f4e37] [cursor=pointer]:
+        - /url: "#/artikel"
+  - generic [ref=f4e38]:
+    - generic:
+      - paragraph: Kontak WhatsApp
+      - generic:
+        - link "CS 1 +62 877-1717-1749":
+          - /url: https://wa.me/6287717171749?text=Assalamualaikum%2C%20saya%20ingin%20konsultasi%20paket%20umrah.
+          - generic: CS 1
+          - generic: +62 877-1717-1749
+        - link "CS 2 +62 858-8284-8614":
+          - /url: https://wa.me/6285882848614?text=Assalamualaikum%2C%20saya%20ingin%20konsultasi%20paket%20umrah.
+          - generic: CS 2
+          - generic: +62 858-8284-8614
+    - button "Buka kontak WhatsApp" [ref=f4e39] [cursor=pointer]
+  - contentinfo [ref=f4e42]: Copyright 2026 - PT Malika Royal Madinah

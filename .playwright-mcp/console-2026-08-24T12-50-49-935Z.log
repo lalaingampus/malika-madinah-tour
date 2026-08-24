@@ -1,0 +1,2178 @@
+[     134ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:21550
+[     177ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4435
+[     177ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4435
+[  119737ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:21550
+[  119762ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4435
+[  119762ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4435
+[  208530ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  208531ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  208531ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  208607ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  208607ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  208607ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  209059ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  209059ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  209059ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  209763ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  209763ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  209763ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  210870ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/api/posters:0
+[  210883ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  210883ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  210884ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  210888ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/api/infos:0
+[  211121ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/api/posters:0
+[  211126ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  211127ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  211128ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  212030ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  212030ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  212030ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  212034ms] [WARNING] Blocked aria-hidden on an element because its descendant retained focus. The focus must not be hidden from assistive technology users. Avoid using aria-hidden on a focused element or its ancestor. Consider using the inert attribute instead, which will also prevent focus. For more details, see the aria-hidden section of the WAI-ARIA specification at https://w3c.github.io/aria/#aria-hidden.
+Element with focus: <button.mt-5 rounded-full bg-navy px-5 py-2 text-sm font-bold text-white transition hover:opacity-90>
+Ancestor with aria-hidden: <div.fixed inset-0 z-[10000] flex items-center justify-center bg-navy/60 px-4 transition-opacity duration-200 pointer-events-none opacity-0> @ http://127.0.0.1:5173/#/:0
+[  213067ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  213068ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  213068ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  213094ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  213094ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  213094ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  213192ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  213192ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  213192ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  213193ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/api/infos:0
+[  213250ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  213250ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  213250ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  213255ms] [WARNING] Blocked aria-hidden on an element because its descendant retained focus. The focus must not be hidden from assistive technology users. Avoid using aria-hidden on a focused element or its ancestor. Consider using the inert attribute instead, which will also prevent focus. For more details, see the aria-hidden section of the WAI-ARIA specification at https://w3c.github.io/aria/#aria-hidden.
+Element with focus: <button.absolute right-2 top-2 z-10 flex h-8 w-8 items-center justify-center rounded-full bg-white/95 text-lg font-bold text-navy shadow-md transition hover:bg-white>
+Ancestor with aria-hidden: <div.fixed inset-0 z-[9999] flex items-center justify-center bg-black/60 px-4 py-8 transition-opacity duration-300 pointer-events-none opacity-0> @ http://127.0.0.1:5173/#/:0
+[  217574ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  217574ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  217574ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  217599ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  217599ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  217600ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  217694ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  217694ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  217694ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  222073ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  222074ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  222074ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  222097ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  222098ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  222098ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  222193ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  222193ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  222194ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  226562ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  226563ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  226563ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  226584ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  226584ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  226585ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  226681ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  226681ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  226682ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  231078ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  231079ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  231079ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  231098ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  231099ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  231099ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  231184ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  231185ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  231185ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  235570ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  235570ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  235571ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  235601ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  235601ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  235602ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  235696ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  235696ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  235696ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240072ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240073ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240073ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240112ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240113ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240113ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240233ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240234ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240234ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240296ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240297ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240297ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240330ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240331ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240332ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240376ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240377ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240377ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240459ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240459ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240460ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240631ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240632ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  240632ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  244564ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  244565ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  244566ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  244601ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  244602ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  244602ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  244693ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  244693ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  244693ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  249074ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  249074ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  249075ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  249096ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  249096ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  249097ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  249195ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  249195ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  249196ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  250993ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  250993ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  250994ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  251006ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  251007ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  251007ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  251511ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  251513ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  251513ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  252222ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  252222ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  252222ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  253332ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/api/posters:0
+[  253339ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  253339ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  253340ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  253343ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/api/infos:0
+[  255520ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  255520ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  255520ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  255541ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  255541ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  255542ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  255640ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  255640ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520
+[  255641ms] [ERROR] Warning: Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.%s Makkah Al-Mukarramah 
+    at div
+    at section
+    at div
+    at HomePage (http://127.0.0.1:5173/src/features/home/HomePage.jsx?t=1787576100147:37:33)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Outlet (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4537:26)
+    at main
+    at div
+    at MainLayout (http://127.0.0.1:5173/src/components/layout/MainLayout.jsx:33:39)
+    at RenderedRoute (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4131:5)
+    at Routes (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4601:5)
+    at App
+    at Router (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:4544:15)
+    at HashRouter (http://127.0.0.1:5173/node_modules/.vite/deps/react-router-dom.js?v=8563555b:5326:5) @ http://127.0.0.1:5173/node_modules/.vite/deps/chunk-NLPANMJC.js?v=8563555b:520

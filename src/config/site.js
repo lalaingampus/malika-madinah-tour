@@ -8,6 +8,18 @@ export const siteConfig = {
   phone: "+62 877-1717-1749",
   email: "info@malikaroyalmadinah.co.id",
   servicedJamaahCount: 1280,
+  socialLinks: [
+    {
+      label: "Instagram",
+      handle: "@malikaroyalmadina.id",
+      href: "https://www.instagram.com/malikaroyalmadina.id?igsh=MWs5M3N3d2J1cDNobQ%3D%3D&utm_source=qr",
+    },
+    {
+      label: "TikTok",
+      handle: "@malikaroyalmadinah.id",
+      href: "https://www.tiktok.com/@malikaroyalmadinah.id?_r=1&_t=ZS-97mN2WhsQVg",
+    },
+  ],
   whatsappContacts: [
     {
       label: "CS 1",

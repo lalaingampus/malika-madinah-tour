@@ -8,6 +8,9 @@ export default function ContactPage() {
   const [errors, setErrors] = useState({});
   const [submitState, setSubmitState] = useState("");
 
+  const getGoogleMapsDirectionsUrl = (address) =>
+    `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(address)}`;
+
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -45,12 +48,28 @@ export default function ContactPage() {
                   {index === 0 ? "Kantor Pusat" : "Kantor Perwakilan"}
                 </p>
                 <p className="mt-2 leading-7">{addressLine}</p>
+                <a
+                  href={getGoogleMapsDirectionsUrl(addressLine)}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-3 inline-flex text-sm font-medium text-navy underline underline-offset-4 transition hover:text-gold"
+                >
+                  Buka di Google Maps
+                </a>
               </div>
             ))
           ) : (
             <div className="rounded-2xl border border-navy/10 bg-white/70 p-4 shadow-sm">
               <p className="text-xs font-bold uppercase tracking-[0.18em] text-gold">Kantor</p>
               <p className="mt-2 leading-7">{siteConfig.address}</p>
+              <a
+                href={getGoogleMapsDirectionsUrl(siteConfig.address)}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-3 inline-flex text-sm font-medium text-navy underline underline-offset-4 transition hover:text-gold"
+              >
+                Buka di Google Maps
+              </a>
             </div>
           )}
         </div>

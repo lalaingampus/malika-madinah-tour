@@ -1,0 +1,361 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "Logo PT Malika Royal Madinah PT Malika Royal Madinah" [ref=e6] [cursor=pointer]:
+          - /url: "#/"
+          - img "Logo PT Malika Royal Madinah" [ref=e7]
+          - generic [ref=e8]: PT Malika Royal Madinah
+        - generic [ref=e9]:
+          - navigation [ref=e10]:
+            - link "Home" [ref=e11] [cursor=pointer]:
+              - /url: "#/"
+            - link "Paket" [ref=e12] [cursor=pointer]:
+              - /url: "#/paket"
+            - link "Planner" [ref=e13] [cursor=pointer]:
+              - /url: "#/smart-planner"
+            - link "Kontak" [ref=e14] [cursor=pointer]:
+              - /url: "#/kontak"
+            - link "Artikel" [ref=e15] [cursor=pointer]:
+              - /url: "#/artikel"
+            - link "Informasi" [ref=e16] [cursor=pointer]:
+              - /url: "#/informasi"
+          - link "Login" [ref=e17] [cursor=pointer]:
+            - /url: "#/admin-login"
+    - generic:
+      - generic:
+        - paragraph: Login Berhasil
+        - paragraph: Anda berhasil masuk ke dashboard admin.
+    - img "Loading PT Malika Royal Madinah" [ref=e20]
+    - main [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e27]:
+          - paragraph [ref=e28]: Profesional, Amanah & Berkesan
+          - heading "Travel Halal & Umrah Premium yang Nyaman" [level=1] [ref=e29]
+          - paragraph [ref=e30]: Pengalaman umrah yang tertata, tenang, dan amanah dengan pendampingan sejak persiapan hingga kembali ke tanah air.
+          - generic [ref=e31]:
+            - link "Konsultasi Sekarang" [ref=e32] [cursor=pointer]:
+              - /url: "#/kontak"
+            - link "Lihat Semua Paket" [ref=e33] [cursor=pointer]:
+              - /url: "#/paket"
+            - link "Coba Smart Planner" [ref=e34] [cursor=pointer]:
+              - /url: "#/smart-planner"
+            - button "Coba" [ref=e35] [cursor=pointer]
+          - generic [ref=e36]:
+            - paragraph [ref=e37]: Fitur Baru
+            - generic [ref=e38]:
+              - generic [ref=e39]:
+                - heading "Smart Trip Planner" [level=2] [ref=e40]
+                - paragraph [ref=e41]: Isi tujuan, budget, tanggal, dan jumlah peserta. Sistem akan bantu pilihkan paket yang paling mendekati kebutuhan Anda.
+              - link "Buka Planner" [ref=e42] [cursor=pointer]:
+                - /url: "#/smart-planner"
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - paragraph [ref=e46]: Highlight
+              - heading "Poster Promo Terbaru" [level=2] [ref=e47]
+            - link "Kelola Poster" [ref=e48] [cursor=pointer]:
+              - /url: "#/admin"
+          - generic [ref=e49]:
+            - article [ref=e50]:
+              - img "Paket Umroh Plus Thaif" [ref=e51]
+            - article [ref=e52]:
+              - img "Paket Umroh Awal Musim" [ref=e53]
+            - article [ref=e54]:
+              - img "Paket Umroh Plus Thaif Desember" [ref=e55]
+            - article [ref=e56]:
+              - img "Paket Umroh Plus Thaif Premium" [ref=e57]
+            - article [ref=e58]:
+              - img "Paket Umroh Plus Thaif Sekamar Ber 4" [ref=e59]
+            - article [ref=e60]:
+              - img "Paket Umroh Liburan Desember" [ref=e61]
+            - article [ref=e62]:
+              - img "Paket Umroh Liburan Januari 2027" [ref=e63]
+            - article [ref=e64]:
+              - img "Paket Umroh Syawal 2027" [ref=e65]
+            - article [ref=e66]:
+              - img "Paket Umroh Liburan Januari 2026" [ref=e67]
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - paragraph [ref=e71]: Keunggulan
+              - heading "Kenapa Memilih Kami" [level=2] [ref=e72]
+            - link "Hubungi Call Center" [ref=e73] [cursor=pointer]:
+              - /url: "#/kontak"
+          - generic [ref=e74]:
+            - article [ref=e75]:
+              - paragraph [ref=e76]: Amanah dalam pendampingan dari manasik sampai pulang
+            - article [ref=e77]:
+              - paragraph [ref=e78]: Maskapai terpercaya, akomodasi nyaman, konsumsi halal terjamin
+            - article [ref=e79]:
+              - paragraph [ref=e80]: Tim responsif 24 jam untuk kebutuhan jamaah selama perjalanan
+            - article [ref=e81]:
+              - paragraph [ref=e82]: Skema pembayaran bertahap dan transparan tanpa biaya tersembunyi
+        - generic [ref=e83]:
+          - paragraph [ref=e84]: Layanan
+          - heading "Fasilitas Jamaah" [level=2] [ref=e85]
+          - paragraph [ref=e86]: Kami menyiapkan layanan lengkap untuk kenyamanan, keamanan, dan ketenangan jamaah selama ibadah.
+          - generic [ref=e87]:
+            - article [ref=e88]:
+              - generic [ref=e89]: PSW
+              - heading "Tiket Pesawat" [level=3] [ref=e90]
+              - paragraph [ref=e91]: Tiket PP terjadwal untuk keberangkatan jamaah ke Tanah Suci.
+            - article [ref=e92]:
+              - generic [ref=e93]: TRN
+              - heading "Transportasi" [level=3] [ref=e94]
+              - paragraph [ref=e95]: Transportasi nyaman untuk mobilitas jamaah selama perjalanan ibadah.
+            - article [ref=e96]:
+              - generic [ref=e97]: VSA
+              - heading "Visa Umroh" [level=3] [ref=e98]
+              - paragraph [ref=e99]: Pengurusan visa umroh dibantu penuh hingga dokumen siap berangkat.
+            - article [ref=e100]:
+              - generic [ref=e101]: TL
+              - heading "TL / Muthawif" [level=3] [ref=e102]
+              - paragraph [ref=e103]: Didampingi tour leader dan muthawif berpengalaman serta tersertifikasi.
+            - article [ref=e104]:
+              - generic [ref=e105]: HTL
+              - heading "Hotel Penginapan" [level=3] [ref=e106]
+              - paragraph [ref=e107]: Akomodasi hotel pilihan dengan lokasi strategis dan nyaman.
+            - article [ref=e108]:
+              - generic [ref=e109]: KNS
+              - heading "Konsumsi" [level=3] [ref=e110]
+              - paragraph [ref=e111]: Konsumsi jamaah terjamin dengan menu yang terjadwal dan higienis.
+            - article [ref=e112]:
+              - generic [ref=e113]: PRO
+              - heading "Tim Profesional Saudi" [level=3] [ref=e114]
+              - paragraph [ref=e115]: Tim handling profesional untuk memastikan aktivitas jamaah lancar.
+        - generic [ref=e117]:
+          - heading "Mengapa Harus PT Malika Royal Madinah" [level=2] [ref=e118]
+          - paragraph [ref=e119]: Jalankan umrah yang aman, khusyuk, dan menyenangkan bersama tim profesional kami.
+          - generic [ref=e120]:
+            - article [ref=e121]:
+              - generic [ref=e122]: OK
+              - heading "Resmi Terpercaya" [level=3] [ref=e123]
+              - paragraph [ref=e124]: Terdaftar resmi dan berkomitmen memberikan layanan amanah untuk seluruh jamaah.
+            - article [ref=e125]:
+              - generic [ref=e126]: SV
+              - heading "Layanan Terbaik" [level=3] [ref=e127]
+              - paragraph [ref=e128]: "Bantuan end-to-end: dokumen, visa, manasik, hingga pendampingan selama perjalanan."
+            - article [ref=e129]:
+              - generic [ref=e130]: EZ
+              - heading "Pemesanan Mudah" [level=3] [ref=e131]
+              - paragraph [ref=e132]: Proses pendaftaran ringkas, respons cepat, dan pilihan pembayaran yang fleksibel.
+        - generic [ref=e136]:
+          - paragraph [ref=e137]: Proses
+          - heading "Alur Umrah Bersama Kami" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - paragraph [ref=e141]: STEP 01
+              - heading "Konsultasi & Paket" [level=3] [ref=e142]
+              - paragraph [ref=e143]: Pilih paket sesuai kebutuhan dan budget keluarga.
+            - generic [ref=e144]:
+              - paragraph [ref=e145]: STEP 02
+              - heading "Persiapan Dokumen" [level=3] [ref=e146]
+              - paragraph [ref=e147]: Tim kami bantu proses dokumen dan jadwal manasik.
+            - generic [ref=e148]:
+              - paragraph [ref=e149]: STEP 03
+              - heading "Keberangkatan" [level=3] [ref=e150]
+              - paragraph [ref=e151]: Pendampingan penuh dari bandara hingga kembali ke Indonesia.
+        - generic [ref=e152]:
+          - paragraph [ref=e153]: Pilihan Terbaik
+          - heading "Paket Favorit Jamaah" [level=2] [ref=e154]
+          - generic [ref=e155]:
+            - article [ref=e156]:
+              - heading "Paket Ekonomis" [level=3] [ref=e157]
+              - paragraph [ref=e158]: Mulai Rp 24 Juta
+              - paragraph [ref=e159]: Pilihan hemat dengan layanan inti yang tetap nyaman, amanah, dan terarah untuk jamaah pemula maupun keluarga.
+            - article [ref=e160]:
+              - heading "Paket Umroh Awal Musim" [level=3] [ref=e161]
+              - paragraph [ref=e162]: Rp 26.000.000
+              - paragraph [ref=e163]: Hotel Makkah Waha Ajyad dan Hotel Madinah Mukhtar Al Gharbi, cocok untuk jamaah yang ingin berangkat di awal musim dengan suasana lebih nyaman.
+            - article [ref=e164]:
+              - heading "Paket Umroh Plus Thaif" [level=3] [ref=e165]
+              - paragraph [ref=e166]: Hubungi Admin
+              - paragraph [ref=e167]: Program umroh yang dilengkapi perjalanan ke Thaif, dengan fokus ibadah yang tertata dan pengalaman ziarah yang nyaman.
+            - article [ref=e168]:
+              - heading "Paket Umroh Bintang 5" [level=3] [ref=e169]
+              - paragraph [ref=e170]: Rp 38.000.000
+              - paragraph [ref=e171]: Hotel Makkah Safwa Tower 3 dan Hotel Madinah Movenpick, untuk jamaah yang mengutamakan kenyamanan premium dekat area ibadah.
+        - generic [ref=e172]:
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - paragraph [ref=e175]: Testimoni
+              - heading "Penilaian Jamaah" [level=2] [ref=e176]
+              - paragraph [ref=e177]: Kesan jamaah yang kami tampilkan dibuat ringkas agar mudah dibaca oleh calon jamaah.
+            - generic [ref=e178]:
+              - button "Lihat testimoni sebelumnya" [ref=e179] [cursor=pointer]: <
+              - button "Lihat testimoni berikutnya" [ref=e180] [cursor=pointer]: ">"
+          - generic [ref=e181]:
+            - article [ref=e182]:
+              - generic [ref=e183]:
+                - generic [ref=e184]:
+                  - paragraph [ref=e185]: Pak Isna
+                  - paragraph [ref=e186]: Jamaah
+                - generic [ref=e187]: "5.0"
+              - paragraph [ref=e199]: Paket Umroh Awal Musim
+              - paragraph [ref=e200]: "\"Pendampingan timnya rapi, komunikatif, dan sangat membantu dari persiapan sampai kepulangan. Jamaah jadi lebih tenang.\""
+            - article [ref=e201]:
+              - generic [ref=e202]:
+                - generic [ref=e203]:
+                  - paragraph [ref=e204]: Ibu Nurwatiningsih
+                  - paragraph [ref=e205]: Jamaah
+                - generic [ref=e206]: "5.0"
+              - paragraph [ref=e218]: Paket Umroh Plus Thaif
+              - paragraph [ref=e219]: "\"Proses pendaftaran mudah, hotelnya nyaman, dan itinerary terasa tertata. Cocok untuk keluarga yang ingin ibadah khusyuk.\""
+            - article [ref=e220]:
+              - generic [ref=e221]:
+                - generic [ref=e222]:
+                  - paragraph [ref=e223]: Bapak Purwoko
+                  - paragraph [ref=e224]: Jamaah
+                - generic [ref=e225]: "5.0"
+              - paragraph [ref=e237]: Paket Umroh Bintang 5
+              - paragraph [ref=e238]: "\"Pelayanan cepat dan informasinya jelas. Tim responsif ketika kami bertanya soal jadwal dan kebutuhan dokumen.\""
+            - article [ref=e239]:
+              - generic [ref=e240]:
+                - generic [ref=e241]:
+                  - paragraph [ref=e242]: Andi Mu'in
+                  - paragraph [ref=e243]: Jamaah
+                - generic [ref=e244]: "5.0"
+              - paragraph [ref=e256]: Paket Umroh Plus Thaif
+              - paragraph [ref=e257]: "\"Alur persiapan berangkat terasa lebih ringan karena tim cepat merespons dan detail informasinya mudah dipahami sejak awal.\""
+        - generic [ref=e258]:
+          - img "Informasi rekening PT Malika Royal Madinah" [ref=e259]
+          - paragraph [ref=e260]: Pembayaran resmi hanya melalui rekening atas nama PT Malika Royal Madinah.
+        - generic [ref=e262]:
+          - generic [ref=e263]:
+            - paragraph [ref=e264]: Call Center
+            - paragraph [ref=e265]: +62 877-1717-1749
+          - link "Booking & Konsultasi" [ref=e266] [cursor=pointer]:
+            - /url: "#/kontak"
+        - generic [ref=e267]:
+          - generic [ref=e268]:
+            - paragraph [ref=e269]: Galeri Jamaah
+            - heading "Dokumentasi Setiap Perjalanan" [level=2] [ref=e270]
+            - paragraph [ref=e271]: Foto kegiatan jamaah selama menjalankan ibadah di Tanah Suci. Foto asli menyusul.
+          - generic [ref=e272]:
+            - paragraph [ref=e273]: Geser kiri/kanan atau biarkan berganti otomatis.
+            - generic [ref=e274]:
+              - button "Lihat dokumentasi sebelumnya" [ref=e275] [cursor=pointer]: <
+              - button "Lihat dokumentasi berikutnya" [ref=e276] [cursor=pointer]: ">"
+          - generic [ref=e277]:
+            - article [ref=e278]:
+              - img "Rombongan Jamaah di Area Masjid" [ref=e280]
+            - article [ref=e281]:
+              - img "Ziarah dan Perjalanan" [ref=e283]
+            - article [ref=e284]:
+              - img "Masjid Nabawi" [ref=e286]
+            - article [ref=e287]:
+              - img "Makkah Al-Mukarramah" [ref=e289]
+            - article [ref=e290]:
+              - img "Makkah Al-Mukarramah" [ref=e292]
+            - article [ref=e293]:
+              - img "Makkah Al-Mukarramah" [ref=e295]
+            - article [ref=e296]:
+              - img "Makkah Al-Mukarramah" [ref=e298]
+          - generic [ref=e299]:
+            - button "Pilih slide dokumentasi 1" [ref=e300] [cursor=pointer]
+            - button "Pilih slide dokumentasi 2" [ref=e301] [cursor=pointer]
+            - button "Pilih slide dokumentasi 3" [ref=e302] [cursor=pointer]
+            - button "Pilih slide dokumentasi 4" [ref=e303] [cursor=pointer]
+            - button "Pilih slide dokumentasi 5" [ref=e304] [cursor=pointer]
+            - button "Pilih slide dokumentasi 6" [ref=e305] [cursor=pointer]
+            - button "Pilih slide dokumentasi 7" [ref=e306] [cursor=pointer]
+        - generic [ref=e307]:
+          - generic [ref=e308]:
+            - generic [ref=e309]:
+              - heading "Alamat Kami" [level=3] [ref=e310]
+              - generic [ref=e311]:
+                - paragraph [ref=e312]: Jl. Papanggo 2 Gg. Dewi Shinta, Tanjung Priok, Jakarta Utara
+                - paragraph [ref=e313]: Jl. Kebantenan Gg. Nusantara RT 009 RW 004, Semper Timur, Jakarta Utara
+              - paragraph [ref=e314]: "Email: info@malikaroyalmadinah.co.id"
+              - generic [ref=e315]: "Telepon: +62 877-1717-1749"
+              - generic [ref=e317]:
+                - paragraph [ref=e318]: Sosial Media
+                - generic [ref=e319]:
+                  - link "Instagram" [ref=e320] [cursor=pointer]:
+                    - /url: https://www.instagram.com/malikaroyalmadina.id?igsh=MWs5M3N3d2J1cDNobQ%3D%3D&utm_source=qr
+                    - generic [ref=e324]:
+                      - generic [ref=e325]: Instagram
+                      - generic [ref=e326]: "@malikaroyalmadina.id"
+                  - link "TikTok" [ref=e327] [cursor=pointer]:
+                    - /url: https://www.tiktok.com/@malikaroyalmadinah.id?_r=1&_t=ZS-97mN2WhsQVg
+                    - generic [ref=e331]:
+                      - generic [ref=e332]: TikTok
+                      - generic [ref=e333]: "@malikaroyalmadinah.id"
+            - generic [ref=e334]:
+              - heading "Informasi" [level=3] [ref=e335]
+              - generic [ref=e336]:
+                - link "Metode Pembayaran" [ref=e337] [cursor=pointer]:
+                  - /url: "#/informasi"
+                - link "Syarat Ketentuan" [ref=e338] [cursor=pointer]:
+                  - /url: "#/informasi"
+                - link "Kebijakan Privasi" [ref=e339] [cursor=pointer]:
+                  - /url: "#/informasi"
+                - link "Artikel" [ref=e340] [cursor=pointer]:
+                  - /url: "#/artikel"
+                - link "Login" [ref=e341] [cursor=pointer]:
+                  - /url: "#/admin-login"
+            - generic [ref=e342]:
+              - heading "Layanan" [level=3] [ref=e343]
+              - generic [ref=e344]:
+                - link "Layanan Paket Umroh" [ref=e345] [cursor=pointer]:
+                  - /url: "#/paket"
+                - link "Konsultasi & Booking" [ref=e346] [cursor=pointer]:
+                  - /url: "#/kontak"
+                - link "Layanan Pembayaran" [ref=e347] [cursor=pointer]:
+                  - /url: "#/informasi"
+            - generic [ref=e348]:
+              - heading "Jam Operasional" [level=3] [ref=e349]
+              - generic [ref=e350]:
+                - paragraph [ref=e351]: Senin - Jumat, 09.00 - 17.00
+                - paragraph [ref=e352]: Sabtu, 08.30 - 14.00
+                - paragraph [ref=e353]: Minggu, libur
+          - generic [ref=e354]:
+            - generic [ref=e355]:
+              - paragraph [ref=e356]: Total Pengunjung
+              - generic [ref=e357]:
+                - generic [ref=e358]: "0"
+                - generic [ref=e359]: "0"
+                - generic [ref=e360]: "0"
+                - generic [ref=e361]: "0"
+                - generic [ref=e362]: "0"
+                - generic [ref=e363]: "0"
+                - generic [ref=e364]: "0"
+                - generic [ref=e365]: "2"
+            - generic [ref=e367]:
+              - generic [ref=e368]: Bulan Ini
+              - generic [ref=e369]: "500"
+              - generic [ref=e370]: Minggu Ini
+              - generic [ref=e371]: "292"
+              - generic [ref=e372]: Hari Ini
+              - generic [ref=e373]: "14"
+              - generic [ref=e374]: Kemarin
+              - generic [ref=e375]: "57"
+              - generic [ref=e376]: Rata-Rata/Hari
+              - generic [ref=e377]: "11"
+              - generic [ref=e378]: Jamaah Terlayani
+              - generic [ref=e379]: 1.280+
+              - generic [ref=e380]: Kepuasan
+              - generic [ref=e381]: 4.9/5
+    - generic [ref=e382]:
+      - generic:
+        - paragraph: Kontak WhatsApp
+        - generic:
+          - link "CS 1 +62 877-1717-1749":
+            - /url: https://wa.me/6287717171749?text=Assalamualaikum%2C%20saya%20ingin%20konsultasi%20paket%20umrah.
+            - generic: CS 1
+            - generic: +62 877-1717-1749
+          - link "CS 2 +62 858-8284-8614":
+            - /url: https://wa.me/6285882848614?text=Assalamualaikum%2C%20saya%20ingin%20konsultasi%20paket%20umrah.
+            - generic: CS 2
+            - generic: +62 858-8284-8614
+      - button "Buka kontak WhatsApp" [ref=e383] [cursor=pointer]
+    - contentinfo [ref=e386]: Copyright 2026 - PT Malika Royal Madinah
+  - generic:
+    - generic:
+      - button: x
+  - generic:
+    - dialog:
+      - heading [level=2]: ai berhasil
+      - paragraph: Popup test berhasil ditampilkan.
+      - button: Tutup

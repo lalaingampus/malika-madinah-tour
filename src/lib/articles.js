@@ -6,7 +6,7 @@ const DEFAULT_ARTICLES = [
     title: "Pelajaran Hijrah untuk Perjalanan Umroh",
     excerpt: "Makna hijrah Nabi bisa jadi bekal mental saat memulai perjalanan ibadah ke Tanah Suci.",
     readingTime: "5 menit",
-    body: "Hijrah Nabi Muhammad SAW mengajarkan kesiapan, tawakal, dan strategi. Dalam konteks umroh, jamaah juga perlu menyiapkan niat, fisik, dan dokumen dengan tertib. Jangan panik saat proses bandara atau perubahan jadwal kecil; tetap tenang dan fokus pada tujuan ibadah.\n\nPelajaran penting lainnya adalah kebersamaan. Hijrah tidak dilakukan sendirian, ada dukungan sahabat. Begitu pula saat umroh, saling bantu antarjamaah akan membuat perjalanan lebih ringan. Hormati rombongan, disiplin waktu, dan jaga adab di tempat suci.",
+    body: "Hijrah Nabi Muhammad Shallallahu ‘Alaihi wa Sallam mengajarkan kesiapan, tawakal, dan strategi. Dalam konteks umroh, jamaah juga perlu menyiapkan niat, fisik, dan dokumen dengan tertib. Jangan panik saat proses bandara atau perubahan jadwal kecil; tetap tenang dan fokus pada tujuan ibadah.\n\nPelajaran penting lainnya adalah kebersamaan. Hijrah tidak dilakukan sendirian, ada dukungan sahabat. Begitu pula saat umroh, saling bantu antarjamaah akan membuat perjalanan lebih ringan. Hormati rombongan, disiplin waktu, dan jaga adab di tempat suci.",
   },
   {
     id: "default-2",
@@ -15,7 +15,7 @@ const DEFAULT_ARTICLES = [
     title: "Adab Ziarah Madinah Berdasarkan Siroh",
     excerpt: "Panduan sederhana agar ziarah di Madinah tetap khidmat, tertib, dan penuh makna.",
     readingTime: "6 menit",
-    body: "Madinah adalah kota perjuangan Rasulullah SAW membangun masyarakat yang berakhlak. Saat berziarah, utamakan adab: suara lembut, pakaian sopan, dan tidak berebut spot foto. Fokus pada doa, shalawat, dan rasa syukur.\n\nSecara praktis, datang lebih awal ke area masjid agar tidak tergesa-gesa. Ikuti arahan petugas dan pembimbing. Ingat bahwa ziarah bukan sekadar wisata sejarah, tetapi momen memperkuat cinta kepada Rasulullah SAW dan meneladani akhlaknya.",
+    body: "Madinah adalah kota perjuangan Rasulullah Shallallahu ‘Alaihi wa Sallam membangun masyarakat yang berakhlak. Saat berziarah, utamakan adab: suara lembut, pakaian sopan, dan tidak berebut spot foto. Fokus pada doa, shalawat, dan rasa syukur.\n\nSecara praktis, datang lebih awal ke area masjid agar tidak tergesa-gesa. Ikuti arahan petugas dan pembimbing. Ingat bahwa ziarah bukan sekadar wisata sejarah, tetapi momen memperkuat cinta kepada Rasulullah Shallallahu ‘Alaihi wa Sallam dan meneladani akhlaknya.",
   },
   {
     id: "default-3",
@@ -24,7 +24,7 @@ const DEFAULT_ARTICLES = [
     title: "Manajemen Waktu Ala Rasul Saat Travel",
     excerpt: "Tips ringan mengatur energi selama tour/umroh agar ibadah tetap optimal dan badan tidak drop.",
     readingTime: "4 menit",
-    body: "Rasulullah SAW mengajarkan keseimbangan antara ibadah, istirahat, dan aktivitas harian. Dalam perjalanan umroh atau tour, atur prioritas: jadwal wajib dulu (shalat, kumpul rombongan), lalu aktivitas tambahan.\n\nSediakan waktu istirahat cukup, minum air rutin, dan jangan memaksakan belanja atau jalan terlalu lama. Dengan ritme yang seimbang, ibadah bisa lebih khusyuk dan perjalanan tetap menyenangkan untuk semua anggota keluarga.",
+    body: "Rasulullah Shallallahu ‘Alaihi wa Sallam mengajarkan keseimbangan antara ibadah, istirahat, dan aktivitas harian. Dalam perjalanan umroh atau tour, atur prioritas: jadwal wajib dulu (shalat, kumpul rombongan), lalu aktivitas tambahan.\n\nSediakan waktu istirahat cukup, minum air rutin, dan jangan memaksakan belanja atau jalan terlalu lama. Dengan ritme yang seimbang, ibadah bisa lebih khusyuk dan perjalanan tetap menyenangkan untuk semua anggota keluarga.",
   },
 ];
 

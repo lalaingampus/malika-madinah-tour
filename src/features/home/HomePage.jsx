@@ -39,12 +39,16 @@ export default function HomePage() {
           { id: "dummy-poster-home-8", name: "Dummy Poster Paket 8", src: extraPosterImage7 },
         ];
 
+  const promoPoster = { id: "promo-september", name: "Poster September", src: septemberPosterImage };
   const displayPosters = Array.from(
     new Map(
-      [...uploadedOrFallbackPosters, ...packageCards.map((item) => ({ id: `package-poster-${item.id}`, name: item.title, src: item.image }))].map((item) => [item.src, item])
+      [
+        promoPoster,
+        ...uploadedOrFallbackPosters,
+        ...packageCards.map((item) => ({ id: `package-poster-${item.id}`, name: item.title, src: item.image })),
+      ].map((item) => [item.src, item])
     ).values()
   );
-  const promoPoster = { id: "promo-september", name: "Poster September", src: septemberPosterImage };
 
   useEffect(() => {
     const load = async () => {
@@ -88,6 +92,19 @@ export default function HomePage() {
     { icon: "KNS", title: "Konsumsi", desc: "Konsumsi jamaah terjamin dengan menu yang terjadwal dan higienis." },
     { icon: "PRO", title: "Tim Profesional Saudi", desc: "Tim handling profesional untuk memastikan aktivitas jamaah lancar." },
   ];
+
+  const socialIcons = {
+    Instagram: (
+      <svg viewBox="0 0 24 24" aria-hidden="true" className="h-5 w-5 fill-current">
+        <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5a4.25 4.25 0 0 0 4.25 4.25h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5a4.25 4.25 0 0 0-4.25-4.25h-8.5Zm8.88 1.62a1.13 1.13 0 1 1 0 2.26 1.13 1.13 0 0 1 0-2.26ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.5A3.5 3.5 0 1 0 12 15.5 3.5 3.5 0 0 0 12 8.5Z" />
+      </svg>
+    ),
+    TikTok: (
+      <svg viewBox="0 0 24 24" aria-hidden="true" className="h-5 w-5 fill-current">
+        <path d="M16.6 3c.2 1.7 1.2 3.2 2.7 4.1 1 .6 2.1.9 3.2 1V11a8.8 8.8 0 0 1-3.8-.9v5.8c0 4.1-3.2 7.1-7.2 7.1A7.1 7.1 0 0 1 4.4 16c0-4 3.2-7.2 7.1-7.2.3 0 .7 0 1 .1v3.5a3.8 3.8 0 0 0-1-.1 3.6 3.6 0 0 0-3.6 3.7c0 2.1 1.7 3.6 3.6 3.6 2.3 0 3.5-1.8 3.5-3.6V3h3.6Z" />
+      </svg>
+    ),
+  };
 
   const reasons = [
     { icon: "OK", title: "Resmi Terpercaya", desc: "Terdaftar resmi dan berkomitmen memberikan layanan amanah untuk seluruh jamaah." },
@@ -533,7 +550,36 @@ export default function HomePage() {
             <h3 className="font-heading text-2xl">Alamat Kami</h3>
             <div className="mt-4 space-y-2 text-sm leading-8 text-white/85">{Array.isArray(siteConfig.address) ? siteConfig.address.map((line) => <p key={line}>{line}</p>) : <p>{siteConfig.address}</p>}</div>
             <p className="mt-4 text-sm leading-8 text-white/85">Email: {siteConfig.email}</p>
-            <p className="text-sm leading-8 text-white/85">Telepon: {siteConfig.phone}</p>
+            <div className="mt-2 text-sm leading-8 text-white/85">
+              <span>Telepon: {siteConfig.phone}</span>
+            </div>
+            {siteConfig.socialLinks?.length > 0 && (
+              <div className="mt-5">
+                <p className="text-sm font-semibold uppercase tracking-[0.18em] text-white/80">Sosial Media</p>
+                <div className="mt-3 grid gap-3">
+                  {siteConfig.socialLinks.map((item) => (
+                    <a
+                      key={item.label}
+                      href={item.href}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={item.label}
+                      className="group flex items-center gap-3 rounded-2xl border border-white/20 bg-white/10 px-3 py-3 text-white transition hover:bg-white hover:text-[#0f4db8]"
+                    >
+                      <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/20 bg-white/10">
+                        {socialIcons[item.label] ?? <span className="text-xs font-bold">{item.label.slice(0, 2)}</span>}
+                      </span>
+                      <span className="min-w-0">
+                        <span className="block text-sm font-semibold leading-tight">{item.label}</span>
+                        <span className="block truncate text-xs text-white/75 transition group-hover:text-[#0f4db8]">
+                          {item.handle ?? item.href}
+                        </span>
+                      </span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
 
           <div>

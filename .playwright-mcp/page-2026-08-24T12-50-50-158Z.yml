@@ -1,0 +1,73 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - link "Logo PT Malika Royal Madinah PT Malika Royal Madinah" [ref=f1e6] [cursor=pointer]:
+        - /url: "#/"
+        - img "Logo PT Malika Royal Madinah" [ref=f1e7]
+        - generic [ref=f1e8]: PT Malika Royal Madinah
+      - generic [ref=f1e9]:
+        - navigation [ref=f1e10]:
+          - link "Home" [ref=f1e11] [cursor=pointer]:
+            - /url: "#/"
+          - link "Paket" [ref=f1e12] [cursor=pointer]:
+            - /url: "#/paket"
+          - link "Planner" [ref=f1e13] [cursor=pointer]:
+            - /url: "#/smart-planner"
+          - link "Kontak" [ref=f1e14] [cursor=pointer]:
+            - /url: "#/kontak"
+          - link "Artikel" [ref=f1e15] [cursor=pointer]:
+            - /url: "#/artikel"
+          - link "Informasi" [ref=f1e16] [cursor=pointer]:
+            - /url: "#/informasi"
+        - link "Login" [ref=f1e17] [cursor=pointer]:
+          - /url: "#/admin-login"
+  - generic:
+    - generic:
+      - paragraph: Login Berhasil
+      - paragraph: Anda berhasil masuk ke dashboard admin.
+  - img "Loading PT Malika Royal Madinah" [ref=f1e20]
+  - main [ref=f1e22]:
+    - generic [ref=f1e23]:
+      - generic [ref=f1e24]:
+        - heading "Kontak Konsultasi" [level=2] [ref=f1e25]
+        - generic [ref=f1e26]:
+          - generic [ref=f1e27]:
+            - paragraph [ref=f1e28]: Kantor Pusat
+            - paragraph [ref=f1e29]: Jl. Papanggo 2 Gg. Dewi Shinta, Tanjung Priok, Jakarta Utara
+            - link "Buka di Google Maps" [ref=f1e30] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=Jl.%20Papanggo%202%20Gg.%20Dewi%20Shinta%2C%20Tanjung%20Priok%2C%20Jakarta%20Utara
+          - generic [ref=f1e31]:
+            - paragraph [ref=f1e32]: Kantor Perwakilan
+            - paragraph [ref=f1e33]: Jl. Kebantenan Gg. Nusantara RT 009 RW 004, Semper Timur, Jakarta Utara
+            - link "Buka di Google Maps" [ref=f1e34] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=Jl.%20Kebantenan%20Gg.%20Nusantara%20RT%20009%20RW%20004%2C%20Semper%20Timur%2C%20Jakarta%20Utara
+        - generic [ref=f1e35]:
+          - paragraph [ref=f1e36]: "WhatsApp: +62 877-1717-1749"
+          - paragraph [ref=f1e37]: "Email: info@malikaroyalmadinah.co.id"
+      - generic [ref=f1e38]:
+        - paragraph [ref=f1e39]: Form Konsultasi Umrah
+        - generic [ref=f1e40]:
+          - textbox "Nama Lengkap" [ref=f1e42]
+          - textbox "Email" [ref=f1e44]
+          - textbox "No. WhatsApp" [ref=f1e46]
+          - combobox [ref=f1e48]:
+            - option "Pilih Paket" [selected]
+            - option "Paket Ekonomis"
+            - option "Paket Umroh Awal Musim"
+            - option "Paket Umroh Plus Thaif"
+            - option "Paket Umroh Bintang 5"
+        - button "Kirim Konsultasi" [ref=f1e49] [cursor=pointer]
+  - generic [ref=f1e50]:
+    - generic:
+      - paragraph: Kontak WhatsApp
+      - generic:
+        - link "CS 1 +62 877-1717-1749":
+          - /url: https://wa.me/6287717171749?text=Assalamualaikum%2C%20saya%20ingin%20konsultasi%20paket%20umrah.
+          - generic: CS 1
+          - generic: +62 877-1717-1749
+        - link "CS 2 +62 858-8284-8614":
+          - /url: https://wa.me/6285882848614?text=Assalamualaikum%2C%20saya%20ingin%20konsultasi%20paket%20umrah.
+          - generic: CS 2
+          - generic: +62 858-8284-8614
+    - button "Buka kontak WhatsApp" [ref=f1e51] [cursor=pointer]
+  - contentinfo [ref=f1e54]: Copyright 2026 - PT Malika Royal Madinah
