@@ -1,0 +1,15 @@
+[    8910ms] [WARNING] A speculation rule set was inserted into the document but will be ignored. This might happen, for example, if it was previously inserted into another document, or if it was created using the innerHTML setter. @ https://www.google.com/search?q=malikaroyal&oq=malikaroyal&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDI5NzBqMGo0qAIAsAIB&sourceid=chrome&source=chrome.ob&ie=UTF-8&sei=H0SMavKpO_KThvcP3MTb0Ao:34
+[    9093ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://encrypted-tbn0.gstatic.com/faviconV2?url=http://www.malikaroyal.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL:0
+[   10838ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://www.malikaroyal.com/favicon.ico:0
+[   12498ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/api/posters:0
+[   12499ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/api/infos:0
+[   17692ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/api/posters:0
+[   17693ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/api/infos:0
+[   19534ms] [WARNING] Blocked aria-hidden on an element because its descendant retained focus. The focus must not be hidden from assistive technology users. Avoid using aria-hidden on a focused element or its ancestor. Consider using the inert attribute instead, which will also prevent focus. For more details, see the aria-hidden section of the WAI-ARIA specification at https://w3c.github.io/aria/#aria-hidden.
+Element with focus: <button.absolute right-2 top-2 z-10 flex h-8 w-8 items-center justify-center rounded-full bg-white/95 text-lg font-bold text-navy shadow-md transition hover:bg-white>
+Ancestor with aria-hidden: <div.fixed inset-0 z-[9999] flex items-center justify-center bg-black/60 px-4 py-8 transition-opacity duration-300 pointer-events-none opacity-0> @ http://www.malikaroyal.com/:0
+[   22881ms] [WARNING] Blocked aria-hidden on an element because its descendant retained focus. The focus must not be hidden from assistive technology users. Avoid using aria-hidden on a focused element or its ancestor. Consider using the inert attribute instead, which will also prevent focus. For more details, see the aria-hidden section of the WAI-ARIA specification at https://w3c.github.io/aria/#aria-hidden.
+Element with focus: <button.absolute right-2 top-2 z-10 flex h-8 w-8 items-center justify-center rounded-full bg-white/95 text-lg font-bold text-navy shadow-md transition hover:bg-white>
+Ancestor with aria-hidden: <div.fixed inset-0 z-[9999] flex items-center justify-center bg-black/60 px-4 py-8 transition-opacity duration-300 pointer-events-none opacity-0> @ http://www.malikaroyal.com/:0
+[   23286ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/api/posters:0
+[   23289ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/api/infos:0

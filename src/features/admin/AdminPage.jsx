@@ -153,10 +153,10 @@ export default function AdminPage() {
 
       <div className="mt-6 rounded-2xl border border-navy/10 bg-white p-5 shadow-soft">
         <p className="mb-3 text-sm font-semibold text-navy">Upload Poster</p>
-        <label className="inline-flex cursor-pointer rounded-full bg-navy px-5 py-3 text-sm font-semibold text-white">
+<label htmlFor="poster-upload" className="inline-flex cursor-pointer rounded-full bg-navy px-5 py-3 text-sm font-semibold text-white">
           Pilih Gambar Poster
-          <input type="file" accept="image/*" onChange={onUpload} className="hidden" />
         </label>
+        <input id="poster-upload" type="file" accept="image/*" onChange={onUpload} className="hidden" />
         {message && <p className="mt-3 text-sm text-navy">{message}</p>}
       </div>
 
@@ -183,10 +183,10 @@ export default function AdminPage() {
         <div className="grid gap-3">
           <input name="title" value={infoForm.title} onChange={handleInfoTextChange} placeholder="Judul informasi" className="rounded-lg border border-navy/20 px-3 py-2" />
           <textarea name="description" value={infoForm.description} onChange={handleInfoTextChange} rows={3} placeholder="Deskripsi singkat informasi" className="rounded-lg border border-navy/20 px-3 py-2" />
-          <label className="inline-flex w-fit cursor-pointer rounded-full bg-navy px-5 py-3 text-sm font-semibold text-white">
+<label htmlFor="info-upload" className="inline-flex w-fit cursor-pointer rounded-full bg-navy px-5 py-3 text-sm font-semibold text-white">
             Upload Gambar Informasi
-            <input type="file" accept="image/*" onChange={handleInfoUpload} className="hidden" />
           </label>
+          <input id="info-upload" type="file" accept="image/*" onChange={handleInfoUpload} className="hidden" />
         </div>
       </div>
 
